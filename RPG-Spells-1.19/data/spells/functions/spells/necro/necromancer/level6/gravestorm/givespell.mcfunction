@@ -1,0 +1,2 @@
+execute if score @s necro matches 6 run give @s minecraft:carrot_on_a_stick{CustomModelData:1000,old:1,display:{Name:'[{"text":"Grave Storm","italic":false,"color":"dark_purple"}]',Lore:['[{"text":"Call upon the power of the God of Death","italic":false,"color":"gray"}]','[{"text":"to conjure an unholy storm.","italic":false,"color":"gray"}]']},element:1,spell_id:18}
+execute if score @s necro matches ..5 run tellraw @s "I do not know that spell!"

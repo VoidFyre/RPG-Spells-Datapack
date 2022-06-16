@@ -1,0 +1,15 @@
+Raise Undead: 200 Mana, 30.0 Seconds
+Deathbolt: 100 Mana, 1.5 Seconds
+Withering Plauge: 150 Mana, 10.0 Seconds
+Raise Death Knight: 300 Mana, 30.0 Seconds
+Death Gate: 500 Mana, 60.0 Seconds
+Disease Weapon: 100 Mana, 10.0 Seconds
+
+Grave Blast: 200 Mana, 3.0 Seconds
+Raise Grave Assassin: 350 Mana, 30.0 Seconds
+Blight Rain: 250 Mana, 5.0 Seconds
+Graveyard: 600 Mana, 60.0 Seconds
+Elder Lich: 1000 Mana, 600.0 Seconds
+
+Spit Bile: 300 Mana, 5.0 Seconds
+Cursed Punch: 150 Mana, 2.0 Seconds

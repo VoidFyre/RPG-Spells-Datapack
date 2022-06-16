@@ -1,0 +1,2 @@
+function spells:loops/structuredetection/classaltars/altar_necro/altar_necro
+function spells:loops/structuredetection/craftingstations/soulforge/soulforge

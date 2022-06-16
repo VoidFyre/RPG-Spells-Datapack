@@ -1,0 +1,2 @@
+playsound minecraft:entity.wither.break_block block @a
+data merge block ~ ~2 ~ {Items:[{Slot:4b,Count:1b,id:"minecraft:milk_bucket",tag:{CustomModelData:1015,zombie_glue:1,display:{Name:'{"text":"§5Zombie Glue","italic":"false"}'}}}]}

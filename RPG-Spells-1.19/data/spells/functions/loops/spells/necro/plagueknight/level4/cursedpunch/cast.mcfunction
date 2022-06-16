@@ -1,0 +1,2 @@
+execute as @a[scores={cursedpunchduration=2..}] at @s run function spells:loops/spells/necro/plagueknight/level4/cursedpunch/loop
+execute as @a[scores={cursedpunchduration=1}] at @s run function spells:spells/necro/plagueknight/level4/cursedpunch/cursedpunch

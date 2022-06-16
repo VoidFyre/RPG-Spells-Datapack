@@ -1,0 +1,37 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "The Abomination",
+            "color": "dark_purple",
+            "bold": true,
+            "underlined": true
+        },
+        "description": {
+            "text": "Discovered the Power of the Abomination",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "item": "minecraft:flint",
+            "nbt": "{CustomModelData:1012}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "founddeathbook": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:written_book",
+                        "nbt": "{death_book:9}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "spells:plagueknight5"
+}

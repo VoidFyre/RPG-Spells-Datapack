@@ -1,0 +1,4 @@
+summon skeleton ~ ~ ~ {CustomNameVisible:1b,DeathLootTable:"spells:elder_lich_loot",PersistenceRequired:1b,CanPickUpLoot:0b,Health:200f,Tags:["elder_lich"],CustomName:'{"text":"Elder Lich","color":"dark_purple"}',HandItems:[{id:"minecraft:written_book",Count:1b,tag:{CustomModelData:1001,title:"",author:""}},{}],HandDropChances:[0.000F,0.085F],ArmorItems:[{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:7078810},Unbreakable:1b}},{id:"minecraft:leather_leggings",Count:1b,tag:{display:{color:7078810},Unbreakable:1b}},{id:"minecraft:leather_chestplate",Count:1b,tag:{display:{color:7078810},Unbreakable:1b}},{id:"minecraft:flint",Count:1b,tag:{CustomModelData:1022}}],ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],Attributes:[{Name:generic.max_health,Base:200},{Name:generic.attack_damage,Base:9},{Name:generic.armor,Base:20},{Name:generic.attack_knockback,Base:1.5}]}
+bossbar add elder_lich_health "Elder Lich"
+bossbar set elder_lich_health color red
+kill @s

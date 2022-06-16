@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flint",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{plague_knight_knowledge:1,CustomModelData:1023,display:{Name:'[{\"text\":\"Malformed Head of the Abomination\",\"italic\":\"false\",\"color\":\"dark_purple\"}]'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

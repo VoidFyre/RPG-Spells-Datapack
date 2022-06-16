@@ -1,0 +1,1 @@
+execute as @s if score @s cooldown matches 0 if score @s blightraincooldown matches 0 if score @s mana matches 250.. run function spells:spells/necro/necromancer/level5/blightrain/generate

@@ -1,0 +1,2 @@
+execute as @s[tag=!diseaseweapon] if score @s cooldown matches 0 if score @s diseaseweaponcooldown matches 0 if score @s mana matches 100.. run function spells:spells/necro/earlyspells/level3/diseaseweapon/diseaseweapon
+execute as @s[tag=diseaseweapon] if score @s cooldown matches 0 run function spells:spells/necro/earlyspells/level3/diseaseweapon/diseaseweapon

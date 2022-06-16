@@ -1,0 +1,1 @@
+function spells:loops/stationcrafting/soulforge/loops

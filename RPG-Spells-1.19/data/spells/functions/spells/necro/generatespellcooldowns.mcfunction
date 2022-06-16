@@ -1,0 +1,25 @@
+scoreboard objectives add raiseundeadcooldown dummy
+scoreboard objectives add deathboltcooldown dummy
+scoreboard objectives add witheringplaguecooldown dummy
+scoreboard objectives add raisedeathknightcooldown dummy
+scoreboard objectives add diseaseweaponcooldown dummy
+scoreboard objectives add deathgatecooldown dummy
+scoreboard objectives add graveblastcooldown dummy
+scoreboard objectives add raisegraveassassincooldown dummy
+scoreboard objectives add blightraincooldown dummy
+scoreboard objectives add graveyardcooldown dummy
+scoreboard objectives add elderlichcooldown dummy
+scoreboard objectives add spitbilecooldown dummy
+scoreboard objectives add cursedpunchcooldown dummy
+scoreboard objectives add blightedbladecooldown dummy
+scoreboard objectives add wakeofdeathcooldown dummy
+scoreboard objectives add abominationcooldown dummy
+scoreboard objectives add devourcooldown dummy
+
+scoreboard objectives add elderlichduration dummy
+scoreboard objectives add abominationduration dummy
+scoreboard objectives add spitbileduration dummy
+scoreboard objectives add cursedpunchduration dummy
+scoreboard objectives add devourduration dummy
+
+scoreboard objectives add devourcount dummy

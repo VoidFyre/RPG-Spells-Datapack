@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flint",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Tags:[\"elder_lich_spawner\"],elder_lich_spawner:1,CustomModelData:1019,display:{Name:'[{\"text\":\"Elder Lich Spawner\",\"italic\":\"false\"}]'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

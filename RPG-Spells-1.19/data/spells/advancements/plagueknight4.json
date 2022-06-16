@@ -1,0 +1,35 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Plague Knight",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Become a Plague Knight",
+            "color": "light_green"
+        },
+        "icon": {
+            "item": "minecraft:rotten_flesh",
+            "nbt": "{CustomModelData:1017}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "founddeathbook": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:written_book",
+                        "nbt": "{death_book:7}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "spells:deathlevel3"
+}

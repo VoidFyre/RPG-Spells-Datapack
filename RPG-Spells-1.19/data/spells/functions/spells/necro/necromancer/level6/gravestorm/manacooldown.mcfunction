@@ -1,0 +1,1 @@
+execute at @s if score @s cooldown matches 0 run function spells:spells/necro/necromancer/level6/gravestorm/generate

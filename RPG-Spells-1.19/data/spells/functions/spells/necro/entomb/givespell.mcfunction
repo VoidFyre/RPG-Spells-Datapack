@@ -1,0 +1,5 @@
+execute if score @s necro matches 5..6 run give @s minecraft:carrot_on_a_stick{CustomModelData:1000,old:1,display:{Name:'[{"text":"Entomb","italic":false,"color":"dark_purple"}]',Lore:['[{"text":"Traps a part of your soul in a philactory,","italic":false,"color":"gray"}]','[{"text":"allowing you to resurrect.","italic":false,"color":"gray"}]','[{"text":"Cooldown: 1.0 Second","italic":false,"color":"green"}]','[{"text":"Mana Cost: 40","italic":false,"color":"aqua"}]']},element:1,spell_id:10}
+execute if score @s necro matches 8..9 run give @s minecraft:carrot_on_a_stick{CustomModelData:1000,old:1,display:{Name:'[{"text":"Entomb","italic":false,"color":"dark_purple"}]',Lore:['[{"text":"Traps a part of your soul in a philactory,","italic":false,"color":"gray"}]','[{"text":"allowing you to resurrect.","italic":false,"color":"gray"}]','[{"text":"Cooldown: 1.0 Second","italic":false,"color":"green"}]','[{"text":"Mana Cost: 40","italic":false,"color":"aqua"}]']},element:1,spell_id:10}
+
+execute if score @s necro matches ..4 run tellraw @s "I do not know that spell!"
+execute if score @s necro matches 7 run tellraw @s "I do not know that spell!"

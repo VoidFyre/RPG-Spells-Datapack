@@ -1,0 +1,3 @@
+execute if score @s necro matches 5..6 run give @s minecraft:carrot_on_a_stick{CustomModelData:1000,old:1,display:{Name:'[{"text":"Graveyard","italic":false,"color":"dark_purple"}]',Lore:['[{"text":"Raise your entire graveyard","italic":false,"color":"gray"}]','[{"text":"from the dead.","italic":false,"color":"gray"}]','[{"text":"Cooldown: 60.0 Seconds","italic":false,"color":"green"}]','[{"text":"Mana Cost: 600","italic":false,"color":"aqua"}]']},element:1,spell_id:9}
+execute if score @s necro matches ..4 run tellraw @s "I do not know that spell!"
+execute if score @s necro matches 7..9 run tellraw @s "I am the wrong specialization for this!"

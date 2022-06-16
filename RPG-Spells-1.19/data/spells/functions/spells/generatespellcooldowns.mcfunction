@@ -1,0 +1,1 @@
+function spells:spells/necro/generatespellcooldowns

@@ -1,0 +1,10 @@
+execute if score @s spell_id matches 1 run function spells:spells/fire/fireball/manacooldown
+execute if score @s spell_id matches 2 run function spells:spells/fire//manacooldown
+execute if score @s spell_id matches 3 run function spells:spells/fire//manacooldown
+execute if score @s spell_id matches 4 run function spells:spells/fire//manacooldown
+execute if score @s spell_id matches 5 run function spells:spells/fire//manacooldown
+execute if score @s spell_id matches 6 run function spells:spells/fire//manacooldown
+execute if score @s spell_id matches 7 run function spells:spells/fire//manacooldown
+execute if score @s spell_id matches 8 run function spells:spells/fire//manacooldown
+execute if score @s spell_id matches 9 run function spells:spells/fire//manacooldown
+execute if score @s spell_id matches 10 run function spells:spells/fire//manacooldown

@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "phylactery": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "spells:phylactery"
+            }
+        }
+    },
+    "rewards": {
+        "function": "spells:customcrafting/phylactery"
+    }
+}

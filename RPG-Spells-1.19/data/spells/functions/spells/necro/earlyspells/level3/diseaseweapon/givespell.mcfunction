@@ -1,0 +1,2 @@
+execute if score @s necro matches 3.. run give @s minecraft:carrot_on_a_stick{CustomModelData:1000,old:1,display:{Name:'[{"text":"Disease Weapon","italic":false,"color":"dark_purple"}]',Lore:['[{"text":"Coats your main-hand weapon","italic":false,"color":"gray"}]','[{"text":"with a powerful disease.","italic":false,"color":"gray"}]','[{"text":"Cooldown: 10.0 Seconds","italic":false,"color":"green"}]','[{"text":"Mana Cost: 100 + 2/tick","italic":false,"color":"aqua"}]']},element:1,spell_id:11}
+execute if score @s necro matches ..2 run tellraw @s "I do not know that spell!"

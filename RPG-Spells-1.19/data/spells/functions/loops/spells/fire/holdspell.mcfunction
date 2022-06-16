@@ -1,0 +1,2 @@
+execute as @e[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{element:2}}}] at @s run particle flame ^-.3 ^.75 ^.2 .01 .01 .01 .005 10
+execute as @e[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",tag:{element:2}}]}] at @s run particle flame ^.3 ^.75 ^.2 .01 .01 .01 .005 10
