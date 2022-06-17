@@ -1,4 +1,3 @@
-function spells:loops/spells/fire/fireball/cast
 function spells:loops/spells/necro/earlyspells/level1/deathbolt/cast
 function spells:loops/spells/necro/necromancer/level4/graveblast/cast
 function spells:loops/spells/necro/earlyspells/level2/witheringplague/cast

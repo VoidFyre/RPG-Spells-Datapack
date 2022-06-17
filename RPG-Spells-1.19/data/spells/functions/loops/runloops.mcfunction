@@ -26,16 +26,12 @@ function spells:loops/spells/holdspells
 
 function spells:loops/spells/triggers/runtriggers
 
-function spells:loops/misc/summonloops
-
 function spells:loops/misc/tracknewplayers
-
-function spells:loops/misc/motionloops
-
-function spells:loops/misc/spellloops
 
 function spells:loops/custommobs/runmobloops
 
 function spells:loops/spells/resistanceloops
 
 function spells:loops/bosses/bossloops
+
+function spells:loops/spells/spellloops
