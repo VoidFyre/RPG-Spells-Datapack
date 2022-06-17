@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/template_spawn_egg",
+
+  "overrides": [
+    {"predicate":{"custom_model_data":1010}, "model": "item/spells/phylactery"},
+    {"predicate":{"custom_model_data":1012}, "model": "item/customitems/abomination_egg"},
+    {"predicate":{"custom_model_data":1019}, "model": "item/customitems/elder_lich_phylactery"}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+    "parent": "item/generated",
+    "textures": {
+      "layer0": "minecraft:item/leather_boots",
+      "layer1": "item/leather_boots_overlay"
+    },
+  
+    "overrides": [
+      {"predicate":{"custom_model_data":1022}, "model": "item/armor/elder_lich_feet"},
+      {"predicate":{"custom_model_data":1023}, "model": "item/armor/abomination_feet"}
+    ]
+  }

@@ -1,0 +1,12 @@
+{
+    "parent": "item/generated",
+    "textures": {
+      "layer0": "minecraft:item/rotten_flesh"
+    },
+  
+    "overrides": [
+      {"predicate":{"custom_model_data":1013}, "model": "item/customitems/rotten_paper"},
+      {"predicate":{"custom_model_data":1017}, "model": "item/customitems/diseased_cover"},
+      {"predicate":{"custom_model_data":1018}, "model": "item/customitems/cursed_cover"}
+    ]
+  }
