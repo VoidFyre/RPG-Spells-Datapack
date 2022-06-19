@@ -8,3 +8,5 @@ scoreboard objectives add useddiamondaxe minecraft.used:minecraft.diamond_axe
 scoreboard objectives add useddiamondsword minecraft.used:minecraft.diamond_sword
 scoreboard objectives add usednetheriteaxe minecraft.used:minecraft.netherite_axe
 scoreboard objectives add usednetheritesword minecraft.used:minecraft.netherite_sword
+
+scoreboard objectives add extinguish dummy

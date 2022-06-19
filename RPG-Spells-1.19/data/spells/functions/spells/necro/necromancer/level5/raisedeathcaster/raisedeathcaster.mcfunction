@@ -1,6 +1,6 @@
-data merge entity @e[type=minecraft:skeleton,tag=summonProxy,tag=deathCasterProxy,limit=1,sort=nearest] {Tags:["Summoned","summonedDC"]}
+tag @e[type=minecraft:skeleton,tag=!Summoned,tag=deathCasterProxy,limit=1,sort=nearest] add Summoned
 
-summon minecraft:wolf ~ ~-1 ~ {Health:30.0f,CustomName:"\"Raised Death Caster\"",Silent:1,Tags:["getplayer","summonedBase","summonedDC"],ActiveEffects:[{Id:5,Amplifier:1,Duration:999999},{Id:11,Amplifier:0,Duration:999999},{Id:14,Amplifier:0,Duration:999999}]}
+summon minecraft:wolf ~ ~-1 ~ {Health:30.0f,CustomName:"\"Raised Death Caster\"",Silent:1,Tags:["getplayer","summonedBase","summonedDeathCaster"],ActiveEffects:[{Id:5,Amplifier:1,Duration:999999},{Id:11,Amplifier:0,Duration:999999},{Id:14,Amplifier:0,Duration:999999}]}
 
 execute as @p[tag=summoning] run loot spawn ~ ~ ~ loot spells:uuidtest
 

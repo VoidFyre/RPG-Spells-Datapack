@@ -1,6 +1,6 @@
-data merge entity @e[type=minecraft:wither_skeleton,tag=summonProxy,tag=deathKnightProxy,limit=1,sort=nearest] {Tags:["Summoned","SummonedDK"]}
+tag @e[type=minecraft:wither_skeleton,tag=deathKnightProxy,limit=1,sort=nearest] add Summoned
 
-summon minecraft:wolf ~ ~-2.5 ~ {Attributes:[{Name:generic.max_health,Base:200.0f}],Health:200.0f,CustomName:"\"Raised Death Knight\"",Silent:1,Tags:["getplayer","summonedBase","summonedDK"],ActiveEffects:[{Id:5,Amplifier:2,Duration:999999},{Id:11,Amplifier:2,Duration:999999},{Id:12,Amplifier:0,Duration:999999},{Id:14,Amplifier:0,Duration:999999}]}
+summon minecraft:wolf ~ ~-2.5 ~ {Attributes:[{Name:generic.max_health,Base:200.0f}],Health:200.0f,CustomName:"\"Raised Death Knight\"",Silent:1,Tags:["getplayer","summonedBase","summonedDeathKnight"],ActiveEffects:[{Id:5,Amplifier:2,Duration:999999},{Id:11,Amplifier:2,Duration:999999},{Id:12,Amplifier:0,Duration:999999},{Id:14,Amplifier:0,Duration:999999}]}
 
 execute as @p[tag=summoning] run loot spawn ~ ~ ~ loot spells:uuidtest
 

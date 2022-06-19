@@ -1,5 +1,5 @@
-execute at @e[type=minecraft:wolf,tag=summonedBase,tag=summonedZombie] run tp @e[type=minecraft:zombie,tag=Summoned,limit=1,sort=nearest] ~ ~ ~ ~ ~
+execute at @e[type=minecraft:wolf,tag=summonedBase,tag=summonedZombie] run tp @e[type=minecraft:zombie,tag=Summoned,tag=zombieProxy,limit=1,sort=nearest,distance=..1.5] ~ ~ ~ ~ ~
 
-execute as @e[type=minecraft:zombie,tag=Summoned] at @s unless entity @e[type=minecraft:wolf,tag=summonedBase,tag=summonedZombie,distance=..3] run kill @s
+execute as @e[type=minecraft:zombie,tag=Summoned,tag=zombieProxy] at @s unless entity @e[type=minecraft:wolf,tag=summonedBase,tag=summonedZombie,distance=..3] run kill @s
 
-execute at @e[type=minecraft:wolf,tag=summonedBase,tag=summonedZombie] unless entity @e[type=minecraft:zombie,tag=Summoned,distance=..1.5] run summon zombie ~ ~ ~ {DeathLootTable:"minecraft:empty",NoAI:1,Tags:["Summoned"],Invulnerable:1,HandItems:[{Count:1,id:iron_sword},{}],ArmorItems:[{Count:1,id:chainmail_boots},{Count:1,id:chainmail_leggings},{Count:1,id:chainmail_chestplate},{Count:1,id:chainmail_helmet}],CustomName:"\"Raised Undead\""}
+execute at @e[type=minecraft:wolf,tag=summonedBase,tag=summonedZombie] unless entity @e[type=minecraft:zombie,tag=Summoned,tag=zombieProxy,distance=..1.5] run summon zombie ~ ~ ~ {DeathLootTable:"minecraft:empty",NoAI:1,Tags:["Summoned","zombieProxy"],Invulnerable:1,HandItems:[{Count:1,id:iron_sword},{}],ArmorItems:[{Count:1,id:chainmail_boots},{Count:1,id:chainmail_leggings},{Count:1,id:chainmail_chestplate},{Count:1,id:chainmail_helmet}],CustomName:"\"Raised Undead\""}

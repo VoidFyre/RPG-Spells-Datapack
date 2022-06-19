@@ -1,4 +1,4 @@
-summon minecraft:item ^ ^1 ^1 {NoGravity:1b,Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:[I;1171669076,1512459376,-1219329287,1575648232],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzBhNDRkNTFlY2M3OWY2OTRjZmQ2MDIyOGM4ODQyODg0OGNhNjE4ZTM2YTY1OWE0MTZlOTI0NmQ4NDFhZWM4In19fQ=="}]}}}},Age:5900,PickupDelay:9999,Tags:["fireballspell","motion_spell"]}
+summon minecraft:item ^ ^1 ^2 {NoGravity:1b,Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:[I;1171669076,1512459376,-1219329287,1575648232],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzBhNDRkNTFlY2M3OWY2OTRjZmQ2MDIyOGM4ODQyODg0OGNhNjE4ZTM2YTY1OWE0MTZlOTI0NmQ4NDFhZWM4In19fQ=="}]}}}},Age:5900,PickupDelay:9999,Tags:["fireballspell","motion_spell"]}
 
 scoreboard players remove @s mana 100
 
