@@ -21,3 +21,8 @@ scoreboard objectives add demonlordcooldown dummy
 scoreboard objectives add darkpactcooldown dummy
 
 scoreboard objectives add phoenixrebirthcooldown dummy
+
+scoreboard objectives add magmalordduration dummy
+scoreboard objectives add demonlordduration dummy
+
+scoreboard objectives add heatwaveduration dummy
