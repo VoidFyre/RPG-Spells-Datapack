@@ -1,5 +1,5 @@
 gamerule doFireTick false
-gamerule sendCommandFeedback false
+#gamerule sendCommandFeedback false
 execute in minecraft:overworld run gamerule keepInventory true
 execute in minecraft:the_end run gamerule keepInventory true
 execute in minecraft:the_nether run gamerule keepInventory true
@@ -9,6 +9,7 @@ team add playerMob
 team modify playerMob collisionRule never
 team modify playerMob friendlyFire false
 team modify playerMob seeFriendlyInvisibles false
+team modify playerMob deathMessageVisibility never
 
 scoreboard objectives add cast_time dummy "Cast Time"
 scoreboard players set @a cast_time 0
@@ -75,7 +76,7 @@ scoreboard players set counter naturalSpawn 0
 scoreboard objectives add plagueimmunity dummy
 scoreboard objectives add plaguespread dummy
 
-function spells:spells/necro/generatetriggers
+function spells:spells/generatetriggers
 
 function spells:spells/generatemiscscoreboards
 

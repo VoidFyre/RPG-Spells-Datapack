@@ -1,5 +1,11 @@
-execute at @e[type=minecraft:wolf,tag=summonedBase,tag=summonedNetherhound] run tp @e[type=minecraft:zombie,tag=Summoned,tag=netherhoundProxy,limit=1,sort=nearest] ~ ~ ~ ~ ~
+execute as @e[type=minecraft:wolf,tag=summonedFireBase,tag=summonedNetherhound] at @s run function spells:loops/spells/fire/earlyspells/level2/conjurenetherhound/animate
 
-execute as @e[type=minecraft:zombie,tag=Summoned,tag=netherhoundProxy] at @s unless entity @e[type=minecraft:wolf,tag=summonedBase,tag=summonedNetherhound,distance=..3] run kill @s
+execute as @e[type=minecraft:wolf,tag=summonedFireBase,tag=summonedNetherhound] run effect give @s fire_resistance 9999
 
-execute at @e[type=minecraft:wolf,tag=summonedBase,tag=summonedNetherhound] unless entity @e[type=minecraft:zombie,tag=Summoned,tag=netherhoundProxy,distance=..1.5] run summon zombie ~ ~ ~ {DeathLootTable:"minecraft:empty",NoAI:1,Tags:["Summoned","netherhoundProxy"],Invulnerable:1,HandItems:[{Count:1,id:iron_sword},{}],ArmorItems:[{Count:1,id:chainmail_boots},{Count:1,id:chainmail_leggings},{Count:1,id:chainmail_chestplate},{Count:1,id:chainmail_helmet}],CustomName:"\"Netherhound\""}
+execute as @e[type=minecraft:armor_stand,tag=Summoned,tag=netherhoundProxy] at @s run particle flame ^ ^.6 ^.4 .2 .2 .2 0 2
+
+execute at @e[type=minecraft:wolf,tag=summonedFireBase,tag=summonedNetherhound] run tp @e[type=minecraft:armor_stand,tag=Summoned,tag=netherhoundProxy,limit=1,sort=nearest] ~ ~ ~ ~ ~
+
+execute as @e[type=minecraft:armor_stand,tag=Summoned,tag=netherhoundProxy] at @s unless entity @e[type=minecraft:wolf,tag=summonedFireBase,tag=summonedNetherhound,distance=..3] run kill @s
+
+execute at @e[type=minecraft:wolf,tag=summonedFireBase,tag=summonedNetherhound] unless entity @e[type=minecraft:armor_stand,tag=Summoned,tag=netherhoundProxy,distance=..1.5] run summon armor_stand ~ ~ ~ {DeathLootTable:"minecraft:empty",NoAI:1,Tags:["Summoned","netherhoundProxy"],Invulnerable:1,Invisible:1b,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:flint",Count:1b,tag:{CustomModelData:2010}}],DisabledSlots:4144959,CustomName:"\"Netherhound\""}

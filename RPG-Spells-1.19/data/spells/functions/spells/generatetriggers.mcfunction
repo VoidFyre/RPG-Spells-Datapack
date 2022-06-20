@@ -1,0 +1,2 @@
+function spells:spells/necro/generatetriggers
+function spells:spells/fire/generatetriggers

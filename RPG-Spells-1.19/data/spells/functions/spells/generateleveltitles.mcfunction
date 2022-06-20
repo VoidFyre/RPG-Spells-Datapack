@@ -194,11 +194,11 @@ team modify fire3 prefix "Blazing "
 team modify fire4 prefix "Summoner "
 team modify fire5 prefix "Demonologist "
 team modify fire6 prefix "Demon Lord "
-team modify fire6 suffix ", the Infernal"
+team modify fire6 suffix ", the Dark Infernal"
 team modify fire7 prefix "Molten "
 team modify fire8 prefix "Magmatic Blade"
-team modify fire9 prefix "Magma Wyrm "
-team modify fire9 suffix ", the Volcanic Lord"
+team modify fire9 prefix "Magma Lord "
+team modify fire9 suffix ", the Blazing Inferno"
 
 team modify druid1 prefix "Flower Picker "
 team modify druid2 prefix "Gardener "
@@ -259,3 +259,29 @@ team modify frost7 prefix "Frozen Fist "
 team modify frost8 prefix "Ice Knight "
 team modify frost9 prefix "Glacial Lord "
 team modify frost9 suffix ", the Frozen Hammer"
+
+
+#Add colors to final levels
+team modify necro6 color dark_purple
+team modify necro9 color dark_purple
+
+team modify arcane6 color blue
+team modify arcane9 color blue
+
+team modify fire6 color gold
+team modify fire9 color gold
+
+team modify druid6 color green 
+team modify druid9 color green 
+
+team modify blood6 color dark_red
+team modify blood9 color dark_red
+
+team modify holy6 color yellow
+team modify holy9 color yellow
+
+team modify void6 color light_purple
+team modify void9 color light_purple
+
+team modify frost6 color aqua
+team modify frost9 color aqua

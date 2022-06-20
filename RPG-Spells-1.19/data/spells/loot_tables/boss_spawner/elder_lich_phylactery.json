@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:zombie_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Tags:[\"elder_lich_phylactery\"],CustomModelData:1019,display:{Name:'[{\"text\":\"§5Elder Lich Phylactery\",\"italic\":false}]'},EntityTag:{DeathLootTable:\"spells:boss_spawner/elder_lich_spawner\",Tags:[\"elder_lich_phylactery\"],IsBaby:1,CustomName:'[{\"text\":\"Elder Lich Phylactery\"}]',Health:.1,NoAI:1b,NoGravity:1b,PersistenceRequired:1b,Silent:1b,ActiveEffects:[{Id:14,Duration:999999,ShowParticles:0b},{Id:12,Duration:999999,ShowParticles:0b}],ArmorItems:[{},{},{},{id:flint,tag:{CustomModelData:1019},Count:1}],ArmorDropChances:[0F,0F,0F,0.00f]}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

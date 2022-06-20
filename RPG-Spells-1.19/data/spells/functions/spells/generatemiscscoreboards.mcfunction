@@ -10,3 +10,4 @@ scoreboard objectives add usednetheriteaxe minecraft.used:minecraft.netherite_ax
 scoreboard objectives add usednetheritesword minecraft.used:minecraft.netherite_sword
 
 scoreboard objectives add extinguish dummy
+scoreboard objectives add animate dummy

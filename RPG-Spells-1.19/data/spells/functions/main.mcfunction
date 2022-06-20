@@ -5,6 +5,7 @@ function spells:loops/runloops
 kill @e[type=item,nbt={Item:{tag:{old:1}}}]
 
 team join playerMob @e[tag=Summoned]
+team join playerMob @e[tag=summonedBase]
 
 function spells:loops/spells/cooldowns
 execute as @e if score @s cast_time matches 1.. run scoreboard players remove @s cast_time 1

@@ -1,6 +1,6 @@
 tag @s add summoning
 
-execute as @e[type=wolf,tag=summonedBase] if score @s summoncounter = @p[tag=summoning] trackplayers run kill @s
+execute as @e[type=wolf,tag=summonedDeathBase] if score @s summoncounter = @p[tag=summoning] trackplayers run kill @s
 
 execute at @s anchored feet positioned ^-2 ^ ^ run summon minecraft:item ~ ~ ~ {Power:[0.0,-0.1,0.0],Motion:[0.0,0.1,0.0],NoGravity:1b,Item:{id:"minecraft:skeleton_skull",Count:1b},Age:5950,PickupDelay:9999,Tags:["raisegraveassassinspell","summon_spell"]}
 
