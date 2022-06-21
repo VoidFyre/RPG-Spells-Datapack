@@ -10,15 +10,14 @@
     {"predicate":{"custom_model_data":1011}, "model": "item/customitems/corrupted_soul_lantern"},
     {"predicate":{"custom_model_data":1012}, "model": "item/customitems/abomination_egg"},
     {"predicate":{"custom_model_data":1019}, "model": "item/customitems/elder_lich_phylactery"},
-    {"predicate":{"custom_model_data":1020}, "model": "item/customitems/elder_lich_item"},
-    {"predicate":{"custom_model_data":1021}, "model": "item/customitems/abomination_item"},
     {"predicate":{"custom_model_data":1022}, "model": "item/custommobs/elder_lich"},
     {"predicate":{"custom_model_data":1023}, "model": "item/custommobs/abomination"},
 
     {"predicate":{"custom_model_data":2010}, "model": "item/custommobs/netherhound_still"},
     {"predicate":{"custom_model_data":2011}, "model": "item/custommobs/netherhound_run1"},
     {"predicate":{"custom_model_data":2012}, "model": "item/custommobs/netherhound_run2"},
-    {"predicate":{"custom_model_data":2013}, "model": "item/custommobs/netherhound_sit"}
-    
+    {"predicate":{"custom_model_data":2013}, "model": "item/custommobs/netherhound_sit"},
+    {"predicate":{"custom_model_data":2019}, "model": "item/customitems/demonic_soul_lantern"},
+    {"predicate":{"custom_model_data":2023}, "model": "item/customitems/demon_lord"}
   ]
 }
