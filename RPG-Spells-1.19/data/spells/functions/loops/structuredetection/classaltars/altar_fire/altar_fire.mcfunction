@@ -1,0 +1,7 @@
+execute as @e[type=item,nbt={Item:{id:"minecraft:fire_charge"}}] at @s if block ~ ~ ~ minecraft:lectern if block ~ ~-1 ~ minecraft:netherrack if block ~ ~-1 ~1 minecraft:netherrack if block ~1 ~-1 ~ minecraft:netherrack if block ~1 ~-1 ~1 minecraft:netherrack if block ~ ~-1 ~-1 minecraft:netherrack if block ~-1 ~-1 ~ minecraft:netherrack if block ~-1 ~-1 ~-1 minecraft:netherrack if block ~-1 ~-1 ~1 minecraft:netherrack if block ~1 ~-1 ~-1 minecraft:netherrack if block ~-1 ~1 ~ minecraft:lantern if block ~1 ~1 ~ minecraft:lantern run function spells:loops/structuredetection/classaltars/altar_fire/createaltar
+
+execute as @e[type=item,nbt={Item:{id:"minecraft:fire_charge"}}] at @s if block ~ ~ ~ minecraft:lectern if block ~ ~-1 ~ minecraft:netherrack if block ~ ~-1 ~1 minecraft:netherrack if block ~1 ~-1 ~ minecraft:netherrack if block ~1 ~-1 ~1 minecraft:netherrack if block ~ ~-1 ~-1 minecraft:netherrack if block ~-1 ~-1 ~ minecraft:netherrack if block ~-1 ~-1 ~-1 minecraft:netherrack if block ~-1 ~-1 ~1 minecraft:netherrack if block ~1 ~-1 ~-1 minecraft:netherrack if block ~ ~1 ~-1 minecraft:lantern if block ~ ~1 ~1 minecraft:lantern run function spells:loops/structuredetection/classaltars/altar_fire/createaltar
+
+execute as @e[type=armor_stand,tag=altar_fire] at @s run function spells:loops/structuredetection/classaltars/altar_fire/detectdestroy
+
+execute as @e[type=armor_stand,tag=altar_fire] at @s run particle flame ~ ~1 ~ 0 0 0 0.01 20

@@ -36,6 +36,6 @@ function spells:loops/bosses/bossloops
 
 function spells:loops/spells/spellloops
 
-function spells:loops/misc/setupnewplayers
+function spells:loops/misc/setuploop
 
 function spells:loops/spells/extinguish
