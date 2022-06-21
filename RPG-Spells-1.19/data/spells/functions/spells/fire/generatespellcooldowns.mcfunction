@@ -26,3 +26,4 @@ scoreboard objectives add magmalordduration dummy
 scoreboard objectives add demonlordduration dummy
 
 scoreboard objectives add heatwaveduration dummy
+scoreboard objectives add jetduration dummy

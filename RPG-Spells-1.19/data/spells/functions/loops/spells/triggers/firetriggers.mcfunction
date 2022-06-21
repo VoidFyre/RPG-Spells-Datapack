@@ -32,8 +32,12 @@ execute as @a[scores={fireball=1..}] run function spells:spells/fire/earlyspells
 execute as @a[scores={kindling=1..}] run function spells:spells/fire/earlyspells/level1/kindling/givespell
 execute as @a[scores={heatwave=1..}] run function spells:spells/fire/earlyspells/level2/heatwave/givespell
 execute as @a[scores={conjurenetherhound=1..}] run function spells:spells/fire/earlyspells/level2/conjurenetherhound/givespell
+execute as @a[scores={flameblade=1}] run function spells:spells/fire/earlyspells/level3/flameblade/givespell
+execute as @a[scores={jet=1}] run function spells:spells/fire/earlyspells/level3/jet/givespell
 
 scoreboard players reset @a[scores={fireball=1..}] fireball
 scoreboard players reset @a[scores={kindling=1..}] kindling
 scoreboard players reset @a[scores={heatwave=1..}] heatwave
 scoreboard players reset @a[scores={conjurenetherhound=1..}] conjurenetherhound
+scoreboard players reset @a[scores={flameblade=1..}] flameblade
+scoreboard players reset @a[scores={jet=1..}] jet
