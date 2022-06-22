@@ -2,11 +2,10 @@ execute if score @s spell_id matches 1 run function spells:spells/fire/earlyspel
 execute if score @s spell_id matches 2 run function spells:spells/fire/earlyspells/level1/kindling/manacooldown
 execute if score @s spell_id matches 3 run function spells:spells/fire/earlyspells/level2/heatwave/manacooldown
 execute if score @s spell_id matches 4 run function spells:spells/fire/earlyspells/level2/conjurenetherhound/manacooldown
-execute if score @s spell_id matches 5 run function spells:spells/fire/earlyspells/level3/meteor/manacooldown
 execute if score @s spell_id matches 6 run function spells:spells/fire/earlyspells/level3/flameblade/manacooldown
 execute if score @s spell_id matches 7 run function spells:spells/fire/earlyspells/level3/netherwalk/manacooldown
 execute if score @s spell_id matches 8 run function spells:spells/fire/flameknight/level4/firecore/manacooldown
-execute if score @s spell_id matches 9 run function spells:spells/fire/flameknight/level4/lavastrike/manacooldown
+execute if score @s spell_id matches 5 run function spells:spells/fire/flameknight/level4/meteor/manacooldown
 execute if score @s spell_id matches 10 run function spells:spells/fire/flameknight/level5/blastfurnace/manacooldown
 execute if score @s spell_id matches 11 run function spells:spells/fire/flameknight/level6/magmalord/manacooldown
 execute if score @s spell_id matches 12 run function spells:spells/fire/flameknight/level6/asderoidstrike/manacooldown
@@ -16,4 +15,4 @@ execute if score @s spell_id matches 15 run function spells:spells/fire/demonolo
 execute if score @s spell_id matches 16 run function spells:spells/fire/demonologist/level5/netherstorm/manacooldown
 execute if score @s spell_id matches 17 run function spells:spells/fire/demonologist/level6/demonlord/manacooldown
 execute if score @s spell_id matches 18 run function spells:spells/fire/demonologist/level6/darkpact/manacooldown
-execute if score @s spell_id matches 9 run function spells:spells/fire/phoenixrebirth/manacooldown
+execute if score @s spell_id matches 19 run function spells:spells/fire/phoenixrebirth/manacooldown

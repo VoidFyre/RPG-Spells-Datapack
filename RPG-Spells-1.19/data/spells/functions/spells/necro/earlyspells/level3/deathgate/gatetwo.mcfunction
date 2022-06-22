@@ -2,18 +2,18 @@ scoreboard players set @s cooldown 20
 scoreboard players set @s deathgatecooldown 1200
 scoreboard players remove @s mana 500
 
-execute as @e[tag=gatetwo] at @s if score @s summoncounter = @p trackplayers run function spells:spells/detectchunkloaders
+execute as @e[tag=deathgatetwo] at @s if score @s summoncounter = @p trackplayers run function spells:spells/detectchunkloaders
 
-execute as @e[tag=gatetwo] at @s if score @s summoncounter = @p trackplayers unless entity @e[tag=keep_loaded] run forceload remove ~ ~ ~ ~
+execute as @e[tag=deathgatetwo] at @s if score @s summoncounter = @p trackplayers unless entity @e[tag=keep_loaded] run forceload remove ~ ~ ~ ~
 
-execute as @e[tag=gatetwo] if score @s summoncounter = @p trackplayers run kill @s
+execute as @e[tag=deathgatetwo] if score @s summoncounter = @p trackplayers run kill @s
 
-summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,Tags:["deathgate","gatetwo","forceload"]}
+summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,Tags:["deathgate","deathgatetwo","forceload"]}
 
-scoreboard players operation @e[tag=gatetwo,limit=1,sort=nearest] summoncounter = Void_Fyre trackplayers
+scoreboard players operation @e[tag=deathgatetwo,limit=1,sort=nearest] summoncounter = Void_Fyre trackplayers
 
 playsound minecraft:block.portal.travel block @a[distance=..15] ~ ~ ~ 1 1.5
 
-execute as @e[tag=gatetwo] at @s if score @s summoncounter = @p trackplayers run function spells:spells/chunkloader
+execute as @e[tag=deathgatetwo] at @s if score @s summoncounter = @p trackplayers run function spells:spells/chunkloader
 
 forceload add ~ ~

@@ -1,3 +1,3 @@
 tag @s add self
-execute as @e[tag=gateone] if score @s summoncounter = @e[tag=gatetwo,tag=self,limit=1] summoncounter run tag @s add partner
+execute as @e[tag=deathgateone] if score @s summoncounter = @e[tag=deathgatetwo,tag=self,limit=1] summoncounter run tag @s add deathpartner
 tag @s remove self

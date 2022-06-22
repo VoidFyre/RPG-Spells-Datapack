@@ -16,6 +16,10 @@ execute unless score @s wakeofdeathcooldown matches 1.. run scoreboard players s
 execute unless score @s abominationcooldown matches 1.. run scoreboard players set @s abominationcooldown 0
 execute unless score @s devourcooldown matches 1.. run scoreboard players set @s devourcooldown 0
 
+execute unless score @s deathtransportab matches 1.. run scoreboard players set @s deathtransportab 0
+execute unless score @s deathtransportba matches 1.. run scoreboard players set @s deathtransportba 0
+execute unless score @s deathtransportcd matches 1.. run scoreboard players set @s deathtransportcd 0
+
 execute unless score @s elderlichduration matches 1.. run scoreboard players set @s elderlichduration 0
 execute unless score @s abominationduration matches 1.. run scoreboard players set @s abominationduration 0
 execute unless score @s spitbilecooldown matches 1.. run scoreboard players set @s spitbilecooldown 0

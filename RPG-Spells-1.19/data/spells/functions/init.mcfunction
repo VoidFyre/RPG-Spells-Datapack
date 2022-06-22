@@ -57,12 +57,6 @@ scoreboard objectives add dcspellcast dummy
 
 scoreboard objectives add summoning dummy
 
-scoreboard objectives add transportab dummy
-
-scoreboard objectives add transportba dummy
-
-scoreboard objectives add transportcd dummy
-
 scoreboard objectives add player_dead deathCount
 scoreboard objectives add soul_stored dummy
 
