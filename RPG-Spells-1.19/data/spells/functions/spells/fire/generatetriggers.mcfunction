@@ -34,3 +34,6 @@ scoreboard objectives add firetitle6 trigger
 scoreboard objectives add firetitle7 trigger
 scoreboard objectives add firetitle8 trigger
 scoreboard objectives add firetitle9 trigger
+
+#dismiss conjured
+scoreboard objectives add dismissconjured trigger

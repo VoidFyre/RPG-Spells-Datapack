@@ -18,6 +18,8 @@ scoreboard players enable @a demonlord
 scoreboard players enable @a darkpact
 scoreboard players enable @a phoenixrebirth
 
+scoreboard players enable @a dismissconjured
+
 scoreboard players enable @a firetitle1
 scoreboard players enable @a firetitle2
 scoreboard players enable @a firetitle3
@@ -37,6 +39,8 @@ execute as @a[scores={netherwalk=1}] run function spells:spells/fire/earlyspells
 execute as @a[scores={meteor=1}] run function spells:spells/fire/flameknight/level4/meteor/givespell
 execute as @a[scores={firecore=1}] run function spells:spells/fire/flameknight/level4/firecore/givespell
 
+execute as @a[scores={dismissconjured=1}] run function spells:spells/fire/dismissconjured
+
 execute as @a[scores={firetitle1=1}] run team join fire1
 execute as @a[scores={firetitle2=1}] run team join fire2
 execute as @a[scores={firetitle3=1}] run team join fire3
@@ -55,6 +59,8 @@ scoreboard players reset @a[scores={flameblade=1..}] flameblade
 scoreboard players reset @a[scores={netherwalk=1..}] netherwalk
 scoreboard players reset @a[scores={meteor=1..}] meteor
 scoreboard players reset @a[scores={firecore=1..}] firecore
+
+scoreboard players reset @a[scores={dismissconjured=1..}] dismissconjured
 
 scoreboard players reset @a[scores={firetitle1=1..}] firetitle1
 scoreboard players reset @a[scores={firetitle2=1..}] firetitle2
