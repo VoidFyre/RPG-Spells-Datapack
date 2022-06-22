@@ -5,6 +5,6 @@
     },
 
     "overrides": [
-        {"predicate":{"custom_model_data":1000}, "model":"item/spells/scroll"}
+        {"predicate":{"custom_model_data":2024}, "model":"item/spells/meteor"}
     ]
 }
