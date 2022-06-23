@@ -1,11 +1,11 @@
 {
-  "parent": "item/generated",
+  "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "minecraft:item/leather_helmet",
-    "layer1": "item/leather_helmet_overlay"
+    "layer0": "spells:item/leather_helmet",
+    "layer1": "spells:item/leather_helmet_overlay"
   },
 
   "overrides": [
-    {"predicate":{"custom_model_data":100106}, "model": "item/armor/armor_necro_6"}
+    {"predicate":{"custom_model_data":100106}, "model": "spells:item/armor/armor_necro_6"}
   ]
 }

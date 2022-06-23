@@ -38,7 +38,7 @@
         },
         {
             "type": "bitmap",
-            "file": "minecraft:gui/mana/mana_empty.png",
+            "file": "spells:gui/mana/mana_empty.png",
             "ascent": -5,
             "height": 9,
             "chars": [
@@ -47,7 +47,7 @@
         },
         {
             "type": "bitmap",
-            "file": "minecraft:gui/mana/mana_half.png",
+            "file": "spells:gui/mana/mana_half.png",
             "ascent": -5,
             "height": 9,
             "chars": [
@@ -56,7 +56,7 @@
         },
         {
             "type": "bitmap",
-            "file": "minecraft:gui/mana/mana_full.png",
+            "file": "spells:gui/mana/mana_full.png",
             "ascent": -5,
             "height": 9,
             "chars": [
@@ -65,7 +65,7 @@
         },
         {
             "type": "bitmap",
-            "file": "minecraft:font/craftingguides/necro/rottenpaper.png",
+            "file": "spells:font/craftingguides/death/rottenpaper.png",
             "ascent": 0,
             "height": 55,
             "chars": [
@@ -74,7 +74,7 @@
         },
         {
             "type": "bitmap",
-            "file": "minecraft:font/craftingguides/necro/spine.png",
+            "file": "spells:font/craftingguides/death/spine.png",
             "ascent": 0,
             "height": 55,
             "chars": [
@@ -83,7 +83,7 @@
         },
         {
             "type": "bitmap",
-            "file": "minecraft:font/craftingguides/necro/zombieglue.png",
+            "file": "spells:font/craftingguides/death/zombieglue.png",
             "ascent": 0,
             "height": 55,
             "chars": [
@@ -92,7 +92,7 @@
         },
         {
             "type": "bitmap",
-            "file": "minecraft:font/craftingguides/necro/cursedcover.png",
+            "file": "spells:font/craftingguides/death/cursedcover.png",
             "ascent": 0,
             "height": 55,
             "chars": [
@@ -101,7 +101,7 @@
         },
         {
             "type": "bitmap",
-            "file": "minecraft:font/craftingguides/necro/corruptedsoullantern.png",
+            "file": "spells:font/craftingguides/death/corruptedsoullantern.png",
             "ascent": 0,
             "height": 55,
             "chars": [
@@ -110,7 +110,7 @@
         },
         {
             "type": "bitmap",
-            "file": "minecraft:font/craftingguides/necro/elderlichphylactery.png",
+            "file": "spells:font/craftingguides/death/elderlichphylactery.png",
             "ascent": 0,
             "height": 55,
             "chars": [
@@ -119,7 +119,7 @@
         },
         {
             "type": "bitmap",
-            "file": "minecraft:font/craftingguides/necro/diseasedcover.png",
+            "file": "spells:font/craftingguides/death/diseasedcover.png",
             "ascent": 0,
             "height": 55,
             "chars": [
@@ -128,7 +128,7 @@
         },
         {
             "type": "bitmap",
-            "file": "minecraft:font/craftingguides/necro/plaguestar.png",
+            "file": "spells:font/craftingguides/death/plaguestar.png",
             "ascent": 0,
             "height": 55,
             "chars": [
@@ -137,7 +137,7 @@
         },
         {
             "type": "bitmap",
-            "file": "minecraft:font/craftingguides/necro/abominationegg.png",
+            "file": "spells:font/craftingguides/death/abominationegg.png",
             "ascent": 0,
             "height": 55,
             "chars": [

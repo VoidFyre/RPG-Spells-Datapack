@@ -5,8 +5,8 @@
     },
 
     "overrides": [
-        {"predicate":{"custom_model_data":2014}, "model": "item/customitems/charred_paper"},
-        {"predicate":{"custom_model_data":2017}, "model": "item/customitems/demonic_cover"},
-        {"predicate":{"custom_model_data":2018}, "model": "item/customitems/molten_cover"}
+        {"predicate":{"custom_model_data":2014}, "model": "spells:item/customitems/charred_paper"},
+        {"predicate":{"custom_model_data":2017}, "model": "spells:item/customitems/demonic_cover"},
+        {"predicate":{"custom_model_data":2018}, "model": "spells:item/customitems/molten_cover"}
     ]
 }

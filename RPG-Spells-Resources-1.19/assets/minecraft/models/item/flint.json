@@ -1,23 +1,24 @@
 {
-  "parent": "item/generated",
+  "parent": "minecraft:item/generated",
   "textures": {
     "layer0": "minecraft:item/flint"
   },
 
   "overrides": [
 
-    {"predicate":{"custom_model_data":1010}, "model": "item/spells/phylactery"},
-    {"predicate":{"custom_model_data":1011}, "model": "item/customitems/corrupted_soul_lantern"},
-    {"predicate":{"custom_model_data":1012}, "model": "item/customitems/abomination_egg"},
-    {"predicate":{"custom_model_data":1019}, "model": "item/customitems/elder_lich_phylactery"},
-    {"predicate":{"custom_model_data":1022}, "model": "item/custommobs/elder_lich"},
-    {"predicate":{"custom_model_data":1023}, "model": "item/custommobs/abomination"},
+    {"predicate":{"custom_model_data":1010}, "model": "spells:item/spells/phylactery"},
+    {"predicate":{"custom_model_data":1011}, "model": "spells:item/customitems/corrupted_soul_lantern"},
+    {"predicate":{"custom_model_data":1012}, "model": "spells:item/customitems/abomination_egg"},
+    {"predicate":{"custom_model_data":1019}, "model": "spells:item/customitems/elder_lich_phylactery"},
+    {"predicate":{"custom_model_data":1022}, "model": "spells:item/custommobs/elder_lich"},
+    {"predicate":{"custom_model_data":1023}, "model": "spells:item/custommobs/abomination"},
 
-    {"predicate":{"custom_model_data":2010}, "model": "item/custommobs/netherhound_still"},
-    {"predicate":{"custom_model_data":2011}, "model": "item/custommobs/netherhound_run1"},
-    {"predicate":{"custom_model_data":2012}, "model": "item/custommobs/netherhound_run2"},
-    {"predicate":{"custom_model_data":2013}, "model": "item/custommobs/netherhound_sit"},
-    {"predicate":{"custom_model_data":2019}, "model": "item/customitems/demonic_soul_lantern"},
-    {"predicate":{"custom_model_data":2023}, "model": "item/customitems/demon_lord"}
+    {"predicate":{"custom_model_data":2010}, "model": "spells:item/custommobs/netherhound_still"},
+    {"predicate":{"custom_model_data":2011}, "model": "spells:item/custommobs/netherhound_run1"},
+    {"predicate":{"custom_model_data":2012}, "model": "spells:item/custommobs/netherhound_run2"},
+    {"predicate":{"custom_model_data":2013}, "model": "spells:item/custommobs/netherhound_sit"},
+    {"predicate":{"custom_model_data":2019}, "model": "spells:item/customitems/demonic_soul_lantern"},
+    {"predicate":{"custom_model_data":2023}, "model": "spells:item/custommobs/demon_lord"},
+    {"predicate":{"custom_model_data":2025}, "model": "spells:item/custommobs/magma_lord"}
   ]
 }

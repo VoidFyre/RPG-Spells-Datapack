@@ -5,6 +5,6 @@
   },
 
   "overrides": [
-    {"predicate":{"custom_model_data":2020}, "model": "item/customitems/molten_core"}
+    {"predicate":{"custom_model_data":2020}, "model": "spells:item/customitems/molten_core"}
   ]
 }

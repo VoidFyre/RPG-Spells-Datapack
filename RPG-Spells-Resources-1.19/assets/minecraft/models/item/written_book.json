@@ -1,17 +1,17 @@
 {
-  "parent": "item/generated",
+  "parent": "minecraft:item/generated",
   "textures": {
     "layer0": "minecraft:item/written_book"
   },
 
   "overrides": [
-    {"predicate":{"custom_model_data":1001}, "model": "item/spellbooks/death_book"},
-    {"predicate":{"custom_model_data":1002}, "model": "item/spellbooks/fire_book"},
-    {"predicate":{"custom_model_data":1003}, "model": "item/spellbooks/druid_book"},
-    {"predicate":{"custom_model_data":1004}, "model": "item/spellbooks/holy_book"},
-    {"predicate":{"custom_model_data":1005}, "model": "item/spellbooks/blood_book"},
-    {"predicate":{"custom_model_data":1006}, "model": "item/spellbooks/void_book"},
-    {"predicate":{"custom_model_data":1007}, "model": "item/spellbooks/frost_book"},
-    {"predicate":{"custom_model_data":1008}, "model": "item/spellbooks/arcane_book"}
+    {"predicate":{"custom_model_data":1001}, "model": "spells:item/spellbooks/death_book"},
+    {"predicate":{"custom_model_data":1002}, "model": "spells:item/spellbooks/fire_book"},
+    {"predicate":{"custom_model_data":1003}, "model": "spells:item/spellbooks/druid_book"},
+    {"predicate":{"custom_model_data":1004}, "model": "spells:item/spellbooks/holy_book"},
+    {"predicate":{"custom_model_data":1005}, "model": "spells:item/spellbooks/blood_book"},
+    {"predicate":{"custom_model_data":1006}, "model": "spells:item/spellbooks/void_book"},
+    {"predicate":{"custom_model_data":1007}, "model": "spells:item/spellbooks/frost_book"},
+    {"predicate":{"custom_model_data":1008}, "model": "spells:item/spellbooks/arcane_book"}
   ]
 }

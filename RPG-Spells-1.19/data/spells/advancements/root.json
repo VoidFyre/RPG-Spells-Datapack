@@ -15,7 +15,7 @@
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false,
-        "background": "spells:stars.png"
+        "background": "spells:textures/gui/advancements/backgrounds/stars.png"
     },
     "criteria": {
         "founddeathbook": {
