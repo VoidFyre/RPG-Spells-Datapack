@@ -2,8 +2,19 @@
 kill @e[type=item,nbt={Item:{id:"minecraft:firework_rocket",tag:{meteorspell:1b}}}]
 
 #teleport player to meteor item and add flame particle
-execute as @a[scores={meteorduration=1..}] at @s run execute as @e[type=item,tag=meteorspell,limit=1,sort=nearest] at @s rotated as @s run tp @p[scores={meteorduration=1..}] ~ ~ ~
-execute as @a[scores={meteorduration=1..}] at @s run execute as @e[type=item,tag=meteorspell,limit=1,sort=nearest] at @s run particle minecraft:flame ~ ~ ~ .5 .5 .5 0 10
+execute as @a[scores={meteorduration=2..}] at @s run execute as @e[type=item,tag=meteorspell,limit=1,sort=nearest] at @s rotated as @s run tp @p[scores={meteorduration=1..}] ~ ~ ~
+execute as @a[scores={meteorduration=2..}] at @s run execute as @e[type=item,tag=meteorspell,limit=1,sort=nearest] at @s run particle minecraft:flame ~ ~ ~ .5 .5 .5 0 10
+#damage at end of meteor spell
+execute as @a[scores={meteorduration=1}] at @s run function spells:spells/fire/flameknight/level4/meteor/meteor
+
+#replace chest with elytra at end of meteor spell if player is in magma lord form
+execute as @a[scores={meteorduration=10,abominationduration=2..}] run item replace entity @s armor.chest with elytra{Unbreakable:1b,magmalordmeteorwings:1b,display:{Name:'{"text":"Magma Lord\'s Meteoric Wings","italic":"false","color":"gold"}'}}
+
+#hold duration of magma lord form while player is flying
+execute as @a[tag=meteorflying,scores={abominationduration=2..}] run scoreboard players add @s abominationduration 1
+
+#replace elytra with magma lord chest if player is in magma lord form upon landing
+execute as @a[scores={abominationduration=2..,meteorduration=0},tag=!meteorflying,nbt={Inventory:[{Slot:102b,id:"minecraft:elytra",tag:{magmalordmeteorwings:1b}}]}] run item replace entity @s armor.chest with leather_chestplate{abomination_chest:1,CustomModelData:1023,display:{color:5733941,Name:'{"text":"Stomach of the Abomination","color":"dark_purple","italic":"false"}'},AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:20,Operation:0,UUID:[I;-638744734,1627473483,-1288154283,1007785568],Slot:"chest"}]}
 
 #detect if player has stopped flying
 execute as @a[nbt={FallFlying:0b},tag=meteorflying] run tag @s remove meteorflying
