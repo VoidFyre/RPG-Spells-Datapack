@@ -1,0 +1,2 @@
+playsound minecraft:entity.skeleton.hurt block @a ~ ~ ~ 1 .6
+data merge block ~ ~2 ~ {Items:[{Slot:4b,Count:1b,id:"minecraft:bone",tag:{CustomModelData:2015,demon_spine:1,display:{Name:'{"text":"Demon Spine","italic":false,"color":"gold"}'}}}]}

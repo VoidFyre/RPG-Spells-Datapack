@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "entity/skeleton/stray",
-		"1": "custommobs/elder_lich",
-		"2": "item/corrupted_soul_lantern",
-		"particle": "entity/skeleton/stray"
+		"0": "minecraft:entity/skeleton/stray",
+		"1": "spells:custommobs/elder_lich",
+		"2": "spells:item/corrupted_soul_lantern",
+		"particle": "minecraft:entity/skeleton/stray"
 	},
 	"elements": [
 		{

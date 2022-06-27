@@ -1,0 +1,3 @@
+execute as @e[type=armor_stand,tag=netherforge] at @s if entity @a[distance=..6] run function spells:loops/stationcrafting/netherforge/recipes/charred_paper
+execute as @e[type=armor_stand,tag=netherforge] at @s if entity @a[distance=..6] run function spells:loops/stationcrafting/netherforge/recipes/demon_spine
+execute as @e[type=armor_stand,tag=netherforge] at @s if entity @a[distance=..6] run function spells:loops/stationcrafting/netherforge/recipes/magma_marrow

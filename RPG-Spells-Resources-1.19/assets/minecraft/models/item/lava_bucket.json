@@ -5,6 +5,6 @@
     },
   
     "overrides": [
-      {"predicate":{"custom_model_data":2016}, "model": "spells:item/customitems/magma-marrow_glue"}
+      {"predicate":{"custom_model_data":2016}, "model": "spells:item/customitems/magma_marrow"}
     ]
 }

@@ -1,1 +1,1 @@
-execute if score @s cooldown matches 0 if score @s meteorcooldown matches 0 if score @s mana matches 100.. run function spells:spells/fire/flameknight/level4/meteor/generate
+execute if score @s cooldown matches 0 if score @s meteorcooldown matches 0 if score @s mana matches 150.. unless entity @s[tag=meteorout] run function spells:spells/fire/flameknight/level4/meteor/generate
