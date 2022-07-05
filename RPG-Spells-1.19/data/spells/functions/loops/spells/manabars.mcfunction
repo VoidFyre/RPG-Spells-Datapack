@@ -1,4 +1,4 @@
-execute as @a[scores={mana=999}] run scoreboard players set @s manabar 100
+execute as @a[scores={mana=995..999}] run scoreboard players set @s manabar 100
 
 execute as @a[scores={mana=0..49}] run title @s actionbar "\uF82b\uf82A\uf825\uE297\uf802\uE297\uf802\uE297\uf802\uE297\uf802\uE297\uf802\uE297\uf802\uE297\uf802\uE297\uf802\uE297\uf802\ue297"
 
