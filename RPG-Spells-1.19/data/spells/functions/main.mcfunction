@@ -14,3 +14,5 @@ execute as @a[scores={magiclevel=1..,mana=0..999}] run scoreboard players add @s
 execute as @a[scores={magiclevel=3..,mana=250..999}] run scoreboard players add @s mana 1
 execute as @a[scores={magiclevel=1..,mana=500..999}] run scoreboard players add @s mana 1
 execute as @a[scores={magiclevel=2..,mana=750..999}] run scoreboard players add @s mana 1
+
+execute as @a[scores={manabar=1..}] run scoreboard players remove @s manabar 1

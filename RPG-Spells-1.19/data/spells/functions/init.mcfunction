@@ -17,6 +17,8 @@ scoreboard players set @a cast_time 0
 scoreboard objectives add mana dummy "Mana"
 scoreboard players set @a mana 1000
 
+scoreboard objectives add manabar dummy "Mana Bar"
+
 scoreboard objectives add cast minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add element dummy
 scoreboard objectives add spell_id dummy
