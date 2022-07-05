@@ -1,16 +1,4 @@
-bossbar set mana0 players
-bossbar set mana1 players
-bossbar set mana2 players
-bossbar set mana3 players
-bossbar set mana4 players
-bossbar set mana5 players
-bossbar set mana6 players
-bossbar set mana7 players
-bossbar set mana8 players
-bossbar set mana9 players
-bossbar set mana10 players
-
-execute as @a[scores={mana=1000}] run scoreboard players set @s manabar 100
+execute as @a[scores={mana=999}] run scoreboard players set @s manabar 100
 
 execute as @a[scores={mana=0..49}] run title @s actionbar "\uF82b\uf82A\uf825\uE297\uf802\uE297\uf802\uE297\uf802\uE297\uf802\uE297\uf802\uE297\uf802\uE297\uf802\uE297\uf802\uE297\uf802\ue297"
 
@@ -20,7 +8,7 @@ execute as @a[scores={mana=100..149}] run title @s actionbar "\uF82b\uf82A\uf825
 
 execute as @a[scores={mana=150..199}] run title @s actionbar "\uF82b\uf82A\uf825\uE297\uf802\uE297\uf802\uE297\uf802\uE297\uf802\uE297\uf802\uE297\uf802\uE297\uf802\uE297\uf802\uE298\uf802\ue299"
 
-execute as @a[scores={mana=200..249}] 200..249 run title @s actionbar "\uF82b\uf82A\uf825\uE297\uf802\uE297\uf802\uE297\uf802\uE297\uf802\uE297\uf802\uE297\uf802\uE297\uf802\uE297\uf802\uE299\uf802\ue299"
+execute as @a[scores={mana=200..249}] run title @s actionbar "\uF82b\uf82A\uf825\uE297\uf802\uE297\uf802\uE297\uf802\uE297\uf802\uE297\uf802\uE297\uf802\uE297\uf802\uE297\uf802\uE299\uf802\ue299"
 
 execute as @a[scores={mana=250..299}] run title @s actionbar "\uF82b\uf82A\uf825\uE297\uf802\uE297\uf802\uE297\uf802\uE297\uf802\uE297\uf802\uE297\uf802\uE297\uf802\uE298\uf802\uE299\uf802\ue299"
 
