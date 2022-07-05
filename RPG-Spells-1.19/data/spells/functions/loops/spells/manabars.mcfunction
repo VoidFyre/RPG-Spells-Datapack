@@ -49,6 +49,6 @@ execute as @a if score @s mana matches 850..899 run title @s actionbar "\uF82b\u
 
 execute as @a if score @s mana matches 900..949 run title @s actionbar "\uF82b\uf82A\uf825\uE297\uf802\uE299\uf802\uE299\uf802\uE299\uf802\uE299\uf802\uE299\uf802\uE299\uf802\uE299\uf802\uE299\uf802\ue299"
 
-execute as @a if score @s mana matches 950..999 run title @s actionbar "\uF82b\uf82A\uf825\uE298\uf802\uE299\uf802\uE299\uf802\uE299\uf802\uE299\uf802\uE299\uf802\uE299\uf802\uE299\uf802\uE299\uf802\ue299"
+execute as @a if score @s mana matches 950..998 run title @s actionbar "\uF82b\uf82A\uf825\uE298\uf802\uE299\uf802\uE299\uf802\uE299\uf802\uE299\uf802\uE299\uf802\uE299\uf802\uE299\uf802\uE299\uf802\ue299"
 
-execute as @a if score @s mana matches 1000 run title @s actionbar "\uF82b\uf82A\uf825\uE299\uf802\uE299\uf802\uE299\uf802\uE299\uf802\uE299\uf802\uE299\uf802\uE299\uf802\uE299\uf802\uE299\uf802\ue299"
+execute as @a if score @s mana matches 999 run title @s actionbar "\uF82b\uf82A\uf825\uE299\uf802\uE299\uf802\uE299\uf802\uE299\uf802\uE299\uf802\uE299\uf802\uE299\uf802\uE299\uf802\uE299\uf802\ue299"
