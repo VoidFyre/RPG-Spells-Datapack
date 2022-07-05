@@ -1,5 +1,6 @@
 {
   "values":[
-	"spells:init"
+	"spells:init",
+  "custom_music:init"
   ]
 }
