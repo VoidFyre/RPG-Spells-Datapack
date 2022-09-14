@@ -1,0 +1,10 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "minecraft:item/milk_bucket"
+    },
+  
+    "overrides": [
+      {"predicate":{"custom_model_data":1015}, "model": "spells:item/customitems/zombie_glue"}
+    ]
+  }

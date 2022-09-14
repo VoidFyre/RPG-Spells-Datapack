@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flint",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Tags:[\"abomination_spawner\"],abomination_spawner:1,CustomModelData:1012,display:{Name:'[{\"text\":\"Abomination Spawner\",\"italic\":false}]'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

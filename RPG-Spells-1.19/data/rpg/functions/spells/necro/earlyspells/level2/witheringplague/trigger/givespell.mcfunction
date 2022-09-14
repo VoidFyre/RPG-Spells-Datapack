@@ -1,0 +1,2 @@
+execute if score @s necro matches 2.. run give @s minecraft:carrot_on_a_stick{CustomModelData:1000,old:1,display:{Name:'[{"text":"Withering Plague","italic":false,"color":"dark_purple"}]',Lore:['[{"text":"Curses the enemy with a plague","italic":false,"color":"gray"}]','[{"text":"that spreads to nearby targets.","italic":false,"color":"gray"}]','[{"text":"Cooldown: 10.0 Seconds","italic":false,"color":"green"}]','[{"text":"Mana Cost: 150","italic":false,"color":"aqua"}]']},element:1,spell_id:4}
+execute if score @s necro matches ..1 run tellraw @s "I do not know that spell!"

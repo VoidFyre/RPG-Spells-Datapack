@@ -1,0 +1,1 @@
+execute at @s if score @s cooldown matches 0 if score @s netherwalkcooldown matches 0 if score @s mana matches 500.. run function rpg:spells/fire/earlyspells/level3/netherwalk/trigger/gatechoice

@@ -1,0 +1,7 @@
+{
+  "values":[
+	"rpg:main",
+  "custom_music:detect_play_tick",
+  "custom_music:detect_stop_tick"
+  ]
+}

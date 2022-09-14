@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "conditions": [
+        {
+          "condition": "random_chance",
+          "chance": 0.5
+        }
+      ],
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:written_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{fire_book_undis:1,pages:['{\"text\":\"This book is charred, and still smoldering, the pages burnt and falling out. Yet, despite the damage, it gives off a warm, magical glow. Perhaps restoring this book could bring it back to its original glory.\"}','[{\"text\":\"You should start with the missing charred page. Try surrounding a piece of paper with three pieces of charcoal and a torch underneath.\n\"},{\"text\":\"\",\"color\":\"white\"}]','{\"text\":\"This item will need a special type of forge. Also, fixing this book will require an altar. You might be able to find these structures in the nether. Try activating them with fire charges.\"}'],title:\"Smoldering Book\",author:Unknown}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rotten_flesh",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{demon_skin:1,CustomModelData:2026,display:{Name:'[{\"text\":\"Demon Skin\",\"italic\":false}]'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

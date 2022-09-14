@@ -1,0 +1,1 @@
+execute if score @s mana matches 500.. if score @s cooldown matches 0 if score @s blightedbladecooldown matches 0 run function rpg:spells/necro/plagueknight/level5/blightedblade/trigger/givespell

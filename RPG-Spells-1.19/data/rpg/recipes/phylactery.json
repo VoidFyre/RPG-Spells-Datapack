@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "gBg",
+        "PPP"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:purple_stained_glass"
+        },
+        "g": {
+            "item": "minecraft:gold_ingot"
+        },
+        "B": {
+            "item": "minecraft:bone"
+        },
+        "P": {
+            "item": "minecraft:purple_terracotta"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}

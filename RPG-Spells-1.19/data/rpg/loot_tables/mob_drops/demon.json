@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rotten_flesh",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{demon_skin:1,CustomModelData:2026,display:{Name:'[{\"text\":\"Demon Skin\",\"italic\":false}]'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

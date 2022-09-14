@@ -1,0 +1,18 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "minecraft:item/leather_helmet",
+      "layer1": "minecraft:item/leather_helmet_overlay"
+    },
+  
+    "overrides": [
+      {"predicate":{"custom_model_data":1022}, "model": "spells:item/armor/elder_lich"},
+      {"predicate":{"custom_model_data":1024}, "model": "spells:item/armor/abomination"},
+      {"predicate":{"custom_model_data":2025}, "model": "spells:item/armor/necromancer"},
+      {"predicate":{"custom_model_data":2023}, "model": "spells:item/armor/plague_knight"},
+      {"predicate":{"custom_model_data":2022}, "model": "spells:item/armor/magma_lord"},
+      {"predicate":{"custom_model_data":2023}, "model": "spells:item/armor/demon_lord"},
+      {"predicate":{"custom_model_data":2024}, "model": "spells:item/armor/flame_knight"},
+      {"predicate":{"custom_model_data":2025}, "model": "spells:item/armor/demonologist"}
+    ]
+  }

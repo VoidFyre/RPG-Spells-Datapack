@@ -1,0 +1,3 @@
+execute if score @s necro matches 7.. run give @s minecraft:carrot_on_a_stick{CustomModelData:1000,old:1,display:{Name:'[{"text":"Spit Bile","italic":false,"color":"dark_purple"}]',Lore:['[{"text":"Projectile vomit your stomach acid,","italic":false,"color":"gray"}]','[{"text":"damaging anything it touches.","italic":false,"color":"gray"}]','[{"text":"Cooldown: 5.0 Seconds","italic":false,"color":"green"}]','[{"text":"Mana Cost: 300","italic":false,"color":"aqua"}]']},element:1,spell_id:13}
+execute if score @s necro matches ..3 run tellraw @s "I do not know that spell!"
+execute if score @s necro matches 4..6 run tellraw @s "I am the wrong specialization for this!"

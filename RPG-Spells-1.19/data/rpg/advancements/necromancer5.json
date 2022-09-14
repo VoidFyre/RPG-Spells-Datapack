@@ -1,0 +1,36 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Unholy Disciple",
+            "color": "dark_purple",
+            "bold": true
+        },
+        "description": {
+            "text": "Mastered the Art of Necromancy",
+            "color": "light_green"
+        },
+        "icon": {
+            "item": "minecraft:flint",
+            "nbt": "{CustomModelData:1011}"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "founddeathbook": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:written_book",
+                        "nbt": "{death_book:5}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "rpg:necromancer4"
+}

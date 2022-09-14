@@ -1,0 +1,2 @@
+function rpg:spells/necro/generatespellcooldowns
+function rpg:spells/fire/generatespellcooldowns

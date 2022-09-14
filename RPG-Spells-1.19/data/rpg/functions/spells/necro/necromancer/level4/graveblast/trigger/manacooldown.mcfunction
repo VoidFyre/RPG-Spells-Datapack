@@ -1,0 +1,3 @@
+execute at @s if score @s cooldown matches 0 if score @s graveblastcooldown matches 0 if score @s mana matches 200.. run tag @s add castgraveblast
+execute at @s if score @s cooldown matches 0 if score @s graveblastcooldown matches 0 if score @s mana matches 200.. run scoreboard players set @s cast_time 30
+execute at @s if score @s cooldown matches 0 if score @s graveblastcooldown matches 0 if score @s mana matches 200.. run playsound minecraft:entity.zombie.ambient ambient @a[distance=..50] ~ ~ ~ 1 .6

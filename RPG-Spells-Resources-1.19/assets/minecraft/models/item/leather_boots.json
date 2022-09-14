@@ -1,0 +1,18 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "minecraft:item/leather_boots",
+      "layer1": "minecraft:item/leather_boots_overlay"
+    },
+  
+    "overrides": [
+      {"predicate":{"custom_model_data":1022}, "model": "spells:item/armor/elder_lich_feet"},
+      {"predicate":{"custom_model_data":1023}, "model": "spells:item/armor/abomination_feet"},
+      {"predicate":{"custom_model_data":1024}, "model": "spells:item/armor/necromancer_feet"},
+      {"predicate":{"custom_model_data":1025}, "model": "spells:item/armor/plague_knight_feet"},
+      {"predicate":{"custom_model_data":2022}, "model": "spells:item/armor/magma_lord_feet"},
+      {"predicate":{"custom_model_data":2023}, "model": "spells:item/armor/demon_lord_feet"},
+      {"predicate":{"custom_model_data":2024}, "model": "spells:item/armor/flame_knight_feet"},
+      {"predicate":{"custom_model_data":2025}, "model": "spells:item/armor/demonologist_feet"}
+    ]
+  }

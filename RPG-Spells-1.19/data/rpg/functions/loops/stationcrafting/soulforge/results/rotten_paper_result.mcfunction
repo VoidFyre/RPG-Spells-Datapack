@@ -1,0 +1,2 @@
+playsound minecraft:block.gravel.hit block @a
+data merge block ~ ~2 ~ {Items:[{Slot:4b,Count:1b,id:"minecraft:rotten_flesh",tag:{CustomModelData:1013,rotten_paper:1,display:{Name:'{"text":"§5Rotten Paper", "italic": "false"}'}}}]}

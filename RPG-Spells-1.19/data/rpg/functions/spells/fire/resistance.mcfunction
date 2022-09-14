@@ -1,0 +1,1 @@
+execute as @a if score @s fire matches 4.. run effect give @s fire_resistance 9999 0 true

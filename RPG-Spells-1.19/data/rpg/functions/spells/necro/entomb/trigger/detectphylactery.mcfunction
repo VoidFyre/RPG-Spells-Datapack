@@ -1,0 +1,2 @@
+execute if entity @e[type=zombie,tag=phylactery,distance=..3] run function rpg:spells/necro/entomb/trigger/entomb
+execute unless entity @e[type=zombie,tag=phylactery,distance=..3] run tellraw @s "No phylactery nearby"

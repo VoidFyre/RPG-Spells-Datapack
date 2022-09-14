@@ -1,0 +1,32 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/music_disc_11"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "custom_music:item/music_disc_faroverthemistymountainscold"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2
+            },
+            "model": "custom_music:item/music_disc_magiiseverything"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3
+            },
+            "model": "custom_music:item/music_disc_ragnarostheme"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 4
+            },
+            "model": "custom_music:item/music_disc_thedruidstone"
+        }
+    ]
+}

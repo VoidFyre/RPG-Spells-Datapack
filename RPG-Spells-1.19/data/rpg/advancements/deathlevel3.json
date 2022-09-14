@@ -1,0 +1,35 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Blasphemous",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Access The Third Level of Death Magic",
+            "color": "light_green"
+        },
+        "icon": {
+            "item": "minecraft:milk_bucket",
+            "nbt": "{CustomModelData:1015}"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "founddeathbook": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:written_book",
+                        "nbt": "{death_book:3}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "rpg:deathlevel2"
+}

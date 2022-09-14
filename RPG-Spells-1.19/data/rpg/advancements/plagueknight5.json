@@ -1,0 +1,36 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Blight Blade",
+            "color": "dark_purple",
+            "bold": true
+        },
+        "description": {
+            "text": "Mastered the Art of the Plague Knight",
+            "color": "light_green"
+        },
+        "icon": {
+            "item": "minecraft:nether_star",
+            "nbt": "{CustomModelData:1016}"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "founddeathbook": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:written_book",
+                        "nbt": "{death_book:8}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "rpg:plagueknight4"
+}

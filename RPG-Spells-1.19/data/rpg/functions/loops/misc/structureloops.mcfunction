@@ -1,0 +1,5 @@
+function rpg:loops/structuredetection/classaltars/altar_necro/altar_necro
+function rpg:loops/structuredetection/craftingstations/soulforge/soulforge
+
+function rpg:loops/structuredetection/classaltars/altar_fire/altar_fire
+function rpg:loops/structuredetection/craftingstations/netherforge/netherforge
