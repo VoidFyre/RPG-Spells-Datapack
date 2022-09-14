@@ -1,6 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "custom_music:item/music_disc_faroverthemistymountainscold"
-    }
-}
