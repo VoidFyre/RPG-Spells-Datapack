@@ -1,1 +1,0 @@
-function spells:loops/custommobs/necro/deathcaster

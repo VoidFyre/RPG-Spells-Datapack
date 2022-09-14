@@ -1,2 +1,0 @@
-playsound minecraft:entity.wither.ambient block @a
-data merge block ~ ~2 ~ {Items:[{Slot:4b,Count:1b,id:"minecraft:rotten_flesh",tag:{CustomModelData:1018,cursed_cover:1,display:{Name:'{"text":"§5Cursed Cover","italic":"false"}'}}}]}

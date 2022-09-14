@@ -1,3 +1,0 @@
-clear @s written_book{death_recipe_book:7}
-
-give @s written_book{CustomModelData:1001,pages:["[\"\",{\"text\":\"Rotten Page:\\n\"},{\"text\":\"\\uE300\",\"color\":\"white\"}]","[\"\",{\"text\":\"Spine:\\n\"},{\"text\":\"\\uE301\",\"color\":\"white\"}]","[\"\",{\"text\":\"Zombie Glue:\\n\"},{\"text\":\"\\uE302\",\"color\":\"white\"}]","[\"\",{\"text\":\"Diseased Cover:\\n\"},{\"text\":\"\\uE306\",\"color\":\"white\"}]","[\"\",{\"text\":\"Plague Star:\\n\"},{\"text\":\"\\uE307\",\"color\":\"white\"}]"],title:"§5Death Magic Recipe Book",author:"Unknown",death_recipe_book:8,generation:3}

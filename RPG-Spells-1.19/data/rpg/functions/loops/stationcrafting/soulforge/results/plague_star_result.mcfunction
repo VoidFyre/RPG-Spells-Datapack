@@ -1,2 +1,0 @@
-playsound minecraft:entity.wither.break_block block @a
-data merge block ~ ~2 ~ {Items:[{Slot:4b,Count:1b,id:"minecraft:nether_star",tag:{CustomModelData:1016,plague_star:1,display:{Name:'{"text":"§5Plague Star","italic":"false"}'}}}]}

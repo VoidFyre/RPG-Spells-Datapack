@@ -1,2 +1,0 @@
-execute if score @s fire matches 2.. run give @s minecraft:carrot_on_a_stick{CustomModelData:1000,old:1,display:{Name:'[{"text":"Conjure Netherhound","italic":false,"color":"gold"}]',Lore:['[{"text":"Conjure a burning hound from the nether","italic":false,"color":"gray"}]','[{"text":"to aid you in battle.","italic":false,"color":"gray"}]','[{"text":"Cooldown: 30.0 Seconds","italic":false,"color":"green"}]','[{"text":"Mana Cost: 200","italic":false,"color":"aqua"}]']},element:2,spell_id:4}
-execute if score @s fire matches ..1 run tellraw @s "I do not know that spell!"

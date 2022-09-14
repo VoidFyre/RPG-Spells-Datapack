@@ -1,2 +1,0 @@
-playsound minecraft:entity.wither.break_block block @a
-data merge block ~ ~2 ~ {Items:[{Slot:4b,Count:1b,id:"minecraft:rotten_flesh",tag:{CustomModelData:1017,diseased_cover:1,display:{Name:'{"text":"§5Diseased Cover","italic":"false"}'}}}]}

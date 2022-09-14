@@ -1,1 +1,0 @@
-execute at @s if score @s cooldown matches 0 if score @s kindlingcooldown matches 0 if score @s mana matches 130.. run function spells:spells/fire/earlyspells/level1/kindling/generate

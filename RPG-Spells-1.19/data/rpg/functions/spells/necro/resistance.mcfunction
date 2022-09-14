@@ -1,1 +1,0 @@
-execute as @a if score @s necro matches 4.. run effect clear @s minecraft:wither

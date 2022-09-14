@@ -1,2 +1,0 @@
-execute if score @s necro matches 1.. run give @s minecraft:carrot_on_a_stick{CustomModelData:1000,old:1,display:{Name:'[{"text":"Death Bolt","italic":false,"color":"dark_purple"}]',Lore:['[{"text":"Casts a bolt of necrotic","italic":false,"color":"gray"}]','[{"text":"energy to damage your target.","italic":false,"color":"gray"}]','[{"text":"Cooldown: 1.5 Seconds","italic":false,"color":"green"}]','[{"text":"Mana Cost: 100","italic":false,"color":"aqua"}]']},element:1,spell_id:2}
-execute if score @s necro matches 0 run tellraw @s "I do not know that spell!"

@@ -1,9 +1,0 @@
-Level 1: Rotten Paper
-Level 2: Bony Spine
-Level 3: Zombie Glue
-Level 4(Necromancer): Cursed Cover
-Level 5(Necromancer): Corrupted Soul Lantern
-Level 6(Necromancer): Skull of the Elder Lich
-Level 4(Plague Knight): Diseased Cover
-Level 5(Plague Knight): Plague Star
-Level 6(Plague Knight): Stomach of the Abomination

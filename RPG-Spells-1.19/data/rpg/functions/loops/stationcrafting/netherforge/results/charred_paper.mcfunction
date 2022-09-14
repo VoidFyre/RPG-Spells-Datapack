@@ -1,2 +1,0 @@
-playsound minecraft:entity.generic.burn block @a
-data merge block ~ ~2 ~ {Items:[{Slot:4b,Count:1b,id:"minecraft:charcoal",tag:{CustomModelData:2014,charred_paper:1,display:{Name:'{"text":"Charred Paper","italic":false,"color":"gold"}'}}}]}

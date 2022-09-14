@@ -1,4 +1,0 @@
-execute as @e[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{element:1}}}] at @s run particle soul_fire_flame ^-.3 ^.75 ^.2 .01 .01 .01 .005 10
-execute as @e[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{element:1}}}] at @s run particle witch ^-.3 ^.75 ^.2 .01 .01 .01 0 3
-execute as @e[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",tag:{element:1}}]}] at @s run particle soul_fire_flame ^.3 ^.75 ^.2 .01 .01 .01 .005 10
-execute as @e[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",tag:{element:1}}]}] at @s run particle witch ^.3 ^.75 ^.2 .01 .01 .01 0 3

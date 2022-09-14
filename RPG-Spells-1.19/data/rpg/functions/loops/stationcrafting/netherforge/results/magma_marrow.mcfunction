@@ -1,2 +1,0 @@
-playsound minecraft:entity.generic.burn block @a
-data merge block ~ ~2 ~ {Items:[{Slot:4b,Count:1b,id:"minecraft:lava_bucket",tag:{CustomModelData:2016,magma_marrow:1,display:{Name:'{"text":"Magma Marrow","italic":false,"color":"gold"}'}}}]}

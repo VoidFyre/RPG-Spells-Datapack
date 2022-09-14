@@ -1,2 +1,0 @@
-playsound minecraft:entity.wither.ambient block @a
-data merge block ~ ~2 ~ {Items:[{Slot:4b,Count:1b,id:"minecraft:flint",tag:{CustomModelData:1011,corrupted_soul_lantern:1,display:{Name:'{"text":"§5Corrupted Soul Lantern", "italic":false}'}}}]}

@@ -1,1 +1,0 @@
-execute as @e[type=armor_stand,tag=soulforge] at @s if block ~ ~2 ~ minecraft:dropper{Items:[{Slot:1b,Count:1b,id:"minecraft:bone"},{Slot:3b,Count:1b,id:"minecraft:string"},{Slot:4b,Count:1b,id:"minecraft:bone"},{Slot:5b,Count:1b,id:"minecraft:string"},{Slot:7b,Count:1b,id:"minecraft:bone"}]} run function spells:loops/stationcrafting/soulforge/results/spine_result

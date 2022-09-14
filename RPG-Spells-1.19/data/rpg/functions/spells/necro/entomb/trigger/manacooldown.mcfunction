@@ -1,1 +1,0 @@
-execute as @s if score @s cooldown matches 0 run function spells:spells/necro/entomb/detectphylactery

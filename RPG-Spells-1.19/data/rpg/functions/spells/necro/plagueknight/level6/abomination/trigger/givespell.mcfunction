@@ -1,4 +1,0 @@
-execute if score @s necro matches 9 run give @s minecraft:carrot_on_a_stick{CustomModelData:1000,old:1,display:{Name:'[{"text":"Black Ritual: Become Abomination","italic":false,"color":"dark_purple"}]',Lore:['[{"text":"Take the form of the Abomination,","italic":false,"color":"gray"}]','[{"text":"alleviating all cooldowns and granting","italic":false,"color":"gray"}]','[{"text":"infinite mana for the duration","italic":"false","color":"gray"}]','[{"text":"Cooldown: 10.0 Minutes","italic":false,"color":"green"}]','[{"text":"Mana Cost: 1000","italic":false,"color":"aqua"}]']},element:1,spell_id:17}
-execute if score @s necro matches 7..8 run tellraw @s "I do not know that spell!"
-execute if score @s necro matches ..3 run tellraw @s "I do not know that spell!"
-execute if score @s necro matches 4..6 run tellraw @s "I am the wrong specialization for this!"

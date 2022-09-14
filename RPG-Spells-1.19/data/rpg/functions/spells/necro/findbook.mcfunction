@@ -1,9 +1,0 @@
-execute as @a[nbt={SelectedItem:{id:"minecraft:written_book",tag:{death_book_undis:1,resolved:1b}}}] if score @s necro matches 1 run function spells:spells/necro/books/level1
-execute as @a[nbt={SelectedItem:{id:"minecraft:written_book",tag:{death_book_undis:1,resolved:1b}}}] if score @s necro matches 2 run function spells:spells/necro/books/level2
-execute as @a[nbt={SelectedItem:{id:"minecraft:written_book",tag:{death_book_undis:1,resolved:1b}}}] if score @s necro matches 3 run function spells:spells/necro/books/level3
-execute as @a[nbt={SelectedItem:{id:"minecraft:written_book",tag:{death_book_undis:1,resolved:1b}}}] if score @s necro matches 4 run function spells:spells/necro/books/necromancer4
-execute as @a[nbt={SelectedItem:{id:"minecraft:written_book",tag:{death_book_undis:1,resolved:1b}}}] if score @s necro matches 5 run function spells:spells/necro/books/necromancer5
-execute as @a[nbt={SelectedItem:{id:"minecraft:written_book",tag:{death_book_undis:1,resolved:1b}}}] if score @s necro matches 6 run function spells:spells/necro/books/necromancer6
-execute as @a[nbt={SelectedItem:{id:"minecraft:written_book",tag:{death_book_undis:1,resolved:1b}}}] if score @s necro matches 7 run function spells:spells/necro/books/plagueknight4
-execute as @a[nbt={SelectedItem:{id:"minecraft:written_book",tag:{death_book_undis:1,resolved:1b}}}] if score @s necro matches 8 run function spells:spells/necro/books/plagueknight5
-execute as @a[nbt={SelectedItem:{id:"minecraft:written_book",tag:{death_book_undis:1,resolved:1b}}}] if score @s necro matches 9 run function spells:spells/necro/books/plagueknight6

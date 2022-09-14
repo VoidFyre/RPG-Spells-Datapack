@@ -1,2 +1,0 @@
-execute if score @s fire matches 3.. run give @s minecraft:carrot_on_a_stick{CustomModelData:1000,old:1,display:{Name:'[{"text":"Flameblade","italic":false,"color":"gold"}]',Lore:['[{"text":"Coats your main-hand weapon","italic":false,"color":"gray"}]','[{"text":"with a raging fire.","italic":false,"color":"gray"}]','[{"text":"Cooldown: 10.0 Seconds","italic":false,"color":"green"}]','[{"text":"Mana Cost: 100 + 2/tick","italic":false,"color":"aqua"}]']},element:2,spell_id:6}
-execute if score @s fire matches ..2 run tellraw @s "I do not know that spell!"

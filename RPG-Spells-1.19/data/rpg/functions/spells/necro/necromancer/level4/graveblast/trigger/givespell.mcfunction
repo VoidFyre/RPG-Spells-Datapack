@@ -1,3 +1,0 @@
-execute if score @s necro matches 4..6 run give @s minecraft:carrot_on_a_stick{CustomModelData:1000,old:1,display:{Name:'[{"text":"Grave Blast","italic":false,"color":"dark_purple"}]',Lore:['[{"text":"Sends a large blast of necrotic","italic":false,"color":"gray"}]','[{"text":"hurling at your target.","italic":false,"color":"gray"}]','[{"text":"Cooldown: 3.0 Seconds","italic":false,"color":"green"}]','[{"text":"Mana Cost: 200","italic":false,"color":"aqua"}]']},element:1,spell_id:8}
-execute if score @s necro matches ..3 run tellraw @s "I do not know that spell!"
-execute if score @s necro matches 7..9 run tellraw @s "I am the wrong specialization for this!"

@@ -1,9 +1,0 @@
-execute as @e[type=armor_stand,tag=soulforge] at @s if entity @a[distance=..6] run function spells:loops/stationcrafting/soulforge/recipes/corrupted_soul_lantern
-execute as @e[type=armor_stand,tag=soulforge] at @s if entity @a[distance=..6] run function spells:loops/stationcrafting/soulforge/recipes/abomination_egg
-execute as @e[type=armor_stand,tag=soulforge] at @s if entity @a[distance=..6] run function spells:loops/stationcrafting/soulforge/recipes/rotten_paper
-execute as @e[type=armor_stand,tag=soulforge] at @s if entity @a[distance=..6] run function spells:loops/stationcrafting/soulforge/recipes/spine
-execute as @e[type=armor_stand,tag=soulforge] at @s if entity @a[distance=..6] run function spells:loops/stationcrafting/soulforge/recipes/zombie_glue
-execute as @e[type=armor_stand,tag=soulforge] at @s if entity @a[distance=..6] run function spells:loops/stationcrafting/soulforge/recipes/plague_star
-execute as @e[type=armor_stand,tag=soulforge] at @s if entity @a[distance=..6] run function spells:loops/stationcrafting/soulforge/recipes/diseased_cover
-execute as @e[type=armor_stand,tag=soulforge] at @s if entity @a[distance=..6] run function spells:loops/stationcrafting/soulforge/recipes/cursed_cover
-execute as @e[type=armor_stand,tag=soulforge] at @s if entity @a[distance=..6] run function spells:loops/stationcrafting/soulforge/recipes/elder_lich_phylactery

@@ -1,3 +1,0 @@
-execute if score @s fire matches 7.. run give @s minecraft:carrot_on_a_stick{CustomModelData:1000,old:1,display:{Name:'[{"text":"Fire Core","italic":false,"color":"gold"}]',Lore:['[{"text":"Release a stream of fire from your core,","italic":false,"color":"gray"}]','[{"text":"burning anything it touches.","italic":false,"color":"gray"}]','[{"text":"Cooldown: 5.0 Seconds","italic":false,"color":"green"}]','[{"text":"Mana Cost: 300","italic":false,"color":"aqua"}]']},element:2,spell_id:8}
-execute if score @s fire matches ..3 run tellraw @s "I do not know that spell!"
-execute if score @s fire matches 4..6 run tellraw @s "I am the wrong specialization for this!"
