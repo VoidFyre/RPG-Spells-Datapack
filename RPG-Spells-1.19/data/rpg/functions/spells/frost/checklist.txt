@@ -1,0 +1,5 @@
+1. Create folders: earlyspells, frostwitch, and glaciallord
+2. Inside earlyspells, create folders: level1, level2, and level3
+3. Inside frostwitch and glaciallord, create folders: level4, level5, and level6
+(All of this mimics the same structure as the fire and necromancy files)
+4. Inside each level, create 2 spells, and in each spell, create a "loop" folder and a "trigger" folder
