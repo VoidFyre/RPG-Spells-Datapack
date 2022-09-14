@@ -10,7 +10,7 @@ scoreboard objectives add netherwalkcooldown dummy
 scoreboard objectives add firecorecooldown dummy
 scoreboard objectives add meteorcooldown dummy
 scoreboard objectives add blastfurnacecooldown dummy
-scoreboard objectives add magmaticbladecooldown dummy
+scoreboard objectives add cruciblehammercooldown dummy
 scoreboard objectives add magmalordcooldown dummy
 scoreboard objectives add asderoidstrikecooldown dummy
 

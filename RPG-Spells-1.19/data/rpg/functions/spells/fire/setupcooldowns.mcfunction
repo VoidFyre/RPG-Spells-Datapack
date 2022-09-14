@@ -8,6 +8,9 @@ execute unless score @s flamebladecooldown matches 1.. run scoreboard players se
 execute unless score @s firecorecooldown matches 1.. run scoreboard players set @s firecorecooldown 0
 execute unless score @s meteorcooldown matches 1.. run scoreboard players set @s meteorcooldown 0
 
+execute unless score @s cruciblehammer matches 1.. run scoreboard players set @s cruciblehammer 0
+execute unless score @s blastfurnace matches 1.. run scoreboard players set @s blastfurnace 0
+
 execute unless score @s firetransportab matches 1.. run scoreboard players set @s firetransportab 0
 execute unless score @s firetransportba matches 1.. run scoreboard players set @s firetransportba 0
 execute unless score @s firetransportcd matches 1.. run scoreboard players set @s firetransportcd 0

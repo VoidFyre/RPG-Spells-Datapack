@@ -10,6 +10,7 @@ scoreboard objectives add netherwalk trigger
 scoreboard objectives add firecore trigger
 scoreboard objectives add meteor trigger
 scoreboard objectives add blastfurnace trigger
+scoreboard objectives add cruciblehammer trigger
 scoreboard objectives add magmalord trigger
 scoreboard objectives add asderoidstrike trigger
 

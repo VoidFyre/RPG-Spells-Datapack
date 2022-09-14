@@ -1,1 +1,0 @@
-execute if score @s mana matches 500.. if score @s cooldown matches 0 if score @s magmaticbladecooldown matches 0 run function spells:spells/fire/flameknight/level5/magmaticblade/givespell
