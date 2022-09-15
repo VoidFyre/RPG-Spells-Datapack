@@ -1,1 +1,0 @@
-function spells:loops/customarmor/armor_necro

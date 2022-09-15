@@ -1,6 +1,10 @@
 execute as @e[type=minecraft:wolf,tag=summonedFireBase,tag=summonedNetherhound] at @s run function rpg:spells/fire/earlyspells/level2/conjurenetherhound/loop/animate
 
-execute as @e[type=minecraft:wolf,tag=summonedFireBase,tag=summonedNetherhound] run effect give @s fire_resistance 9999
+#keep wolf base invisible and fire resistant
+
+execute as @e[type=minecraft:wolf,tag=summonedFireBase,tag=summonedNetherhound] run effect give @s fire_resistance 9999 1 true
+
+execute as @e[type=minecraft:wolf,tag=summonedFireBase,tag=summonedNetherhound] run effect give @s invisibility 9999 1 true
 
 execute as @e[type=minecraft:armor_stand,tag=Summoned,tag=netherhoundProxy] at @s run particle flame ^ ^.6 ^.4 .2 .2 .2 0 2
 
