@@ -23,4 +23,14 @@ The rankings of the Druid are short yet complex -
         Turns out it CAN get better than that. 
         You now choose between the Zookeeper or the Botanist
         Zookeeper -
-            
+            More animal centric spells, transforming, shit like that
+            SPELLS - 
+                1. Shape of the Beast - dog
+                2. Pointy Vines - Ow
+        Botanist -
+            Plant centric / healing spells
+            SPELLS -
+                1. Healing Aura - big healing spell for allies
+                2. Natures Touch - grow trees
+    Level 5 -
+    Level 6 -
