@@ -1,0 +1,26 @@
+D R U I D
+
+The rankings of the Druid are short yet complex -
+    Level 1 - Bard
+        The lowest in the hierarchy of Druidism, working to become a
+        master of storytelling.
+        SPELLS - 
+            1. Lesser Healing Song
+            2. TBD
+    Level 2 - Ovate
+        After mastering the arts of storytelling and music, bards
+        progress to the TRUE first level of Druidism, the Ovate.
+        SPELLS -
+            1. Cropduster - Right click to grow a 3x3 area of crops.
+            2. Swarm of Bees - Summom some angry bees to fight for you
+    Level 3 - Druid
+        YOU DID IT, Youre now a druid, cant get much better than this.
+        SPELLS - 
+            1. Direwolf - Summon a direwolf to fight by your side
+            2. The LIFE of the party - A greater healing spell that
+                                       surrounds you.
+    Level 4 - Archdruid (2 Paths)
+        Turns out it CAN get better than that. 
+        You now choose between the Zookeeper or the Botanist
+        Zookeeper -
+            
