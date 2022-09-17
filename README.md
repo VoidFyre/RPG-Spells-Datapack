@@ -8,10 +8,15 @@ Currently working:
 Current WIP:
 	Fire Magic Class, including Flame Knight and Demonologist Sub-classes,
 	all fire-related structures and crafting recipes, and both fire magic bosses.
+	
+	Druid Magic Class, including 2 Archmage brances, all druid-related structures,
+	crafting recipes and both druid magic bosses. -DamyonO (Bucket)
+	
+	Frost Magic Class, including 2 Sub-Classes, structures, crafting recipes and
+	frost magic related bosses. -Neo
 
 Future Plans: 
-	All of the afformentioned things for 6 more classes, including:
-	Druid,
+	All of the afformentioned things for 5 more classes, including:
 	Holy,
 	Blood,
 	Frost,
