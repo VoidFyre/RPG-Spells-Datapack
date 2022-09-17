@@ -5,6 +5,7 @@
     },
   
     "overrides": [
-      {"predicate":{"custom_model_data":1016}, "model": "spells:item/customitems/plague_star"}
+      {"predicate":{"custom_model_data":1016}, "model": "spells:item/customitems/plague_star"},
+      {"predicate":{"custom_model_data":2019}, "model": "spells:item/customitems/molten_core"}
     ]
   }

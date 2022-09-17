@@ -1,6 +1,8 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "spells:item/spellbooks/fire_book"
+	"parent": "spells:item/spellbooks/book_template",
+	"textures": {
+	  "0": "spells:item/spellbooks/fire_book",
+	  "1": "spells:item/spellbooks/fire_book_handheld",
+	  "particle": "spells:item/spellbooks/fire"
+	}
   }
-}

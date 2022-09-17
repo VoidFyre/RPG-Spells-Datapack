@@ -5,6 +5,7 @@
     },
 
     "overrides": [
-        {"predicate":{"custom_model_data":1024}, "model": "spells:item/weapons/blightedblade"}
+        {"predicate":{"custom_model_data":1024}, "model": "spells:item/weapons/blightedblade"},
+        {"predicate":{"custom_model_data":2028}, "model": "spells:item/weapons/cruciblehammer"}
       ]
   }

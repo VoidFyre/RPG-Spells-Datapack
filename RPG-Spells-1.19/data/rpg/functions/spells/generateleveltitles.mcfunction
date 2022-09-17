@@ -196,7 +196,7 @@ team modify fire5 prefix "Demonologist "
 team modify fire6 prefix "Demon Lord "
 team modify fire6 suffix ", Nether's Inferno"
 team modify fire7 prefix "Flame Knight "
-team modify fire8 prefix "Magmatic Blade"
+team modify fire8 prefix "Crucible Knight "
 team modify fire9 prefix "Magma Lord "
 team modify fire9 suffix ", the Eternal Flame"
 

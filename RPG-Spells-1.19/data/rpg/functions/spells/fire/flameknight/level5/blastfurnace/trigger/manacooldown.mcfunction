@@ -1,0 +1,3 @@
+execute if score @s cooldown matches 0 if score @s blastfurnacecooldown matches 0 if score @s mana matches 450.. run tag @s add castblastfurnace
+execute if score @s cooldown matches 0 if score @s blastfurnacecooldown matches 0 if score @s mana matches 450.. run scoreboard players set @s cast_time 40
+execute if score @s cooldown matches 0 if score @s blastfurnacecooldown matches 0 if score @s mana matches 450.. run playsound minecraft:item.firecharge.use ambient @a[distance=..50] ~ ~ ~ 1 .7

@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:item/generated",
+  "parent": "spells:item/spellbooks/book_template",
   "textures": {
-    "layer0": "spells:item/spellbooks/death_book"
+    "0": "spells:item/spellbooks/death_book",
+    "particle": "spells:item/spellbooks/death_book"
   }
 }

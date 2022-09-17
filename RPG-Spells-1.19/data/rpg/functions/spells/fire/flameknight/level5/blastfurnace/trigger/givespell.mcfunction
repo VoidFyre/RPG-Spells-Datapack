@@ -1,0 +1,4 @@
+execute if score @s fire matches 8..9 run give @s minecraft:carrot_on_a_stick{CustomModelData:1000,old:1,display:{Name:'[{"text":"Blast Furnace","italic":false,"color":"gold"}]',Lore:['[{"text":"Release an explosion of heat,","italic":false,"color":"gray"}]','[{"text":"incinerating nearby enemies and","italic":false,"color":"gray"}]','[{"text":"smelting nearby items instantly.","italic":false,"color":"gray"}]','[{"text":"Cooldown: 8.0 Seconds","italic":false,"color":"green"}]','[{"text":"Mana Cost: 450","italic":false,"color":"aqua"}]']},element:2,spell_id:10}
+execute if score @s fire matches ..3 run tellraw @s "I do not know that spell!"
+execute if score @s fire matches 7 run tellraw @s "I do not know that spell!"
+execute if score @s fire matches 4..6 run tellraw @s "I am the wrong specialization for this!"

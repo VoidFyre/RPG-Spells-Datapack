@@ -9,6 +9,8 @@ execute as @a[scores={netherwalkcooldown=1..}] run scoreboard players remove @s 
 #flame knight cooldowns
 execute as @a[scores={meteorcooldown=1..}] run scoreboard players remove @s meteorcooldown 1
 execute as @a[scores={firecorecooldown=1..}] run scoreboard players remove @s firecorecooldown 1
+execute as @a[scores={cruciblehammercooldown=1..}] run scoreboard players remove @s cruciblehammercooldown 1
+execute as @a[scores={blastfurnacecooldown=1..}] run scoreboard players remove @s blastfurnacecooldown 1
 
 #spell duration
 execute as @a[scores={heatwaveduration=1..}] run scoreboard players remove @s heatwaveduration 1

@@ -6,7 +6,7 @@ scoreboard players enable @a meteor
 scoreboard players enable @a flameblade
 scoreboard players enable @a netherwalk
 scoreboard players enable @a firecore
-scoreboard players enable @a lavastrike
+scoreboard players enable @a cruciblehammer
 scoreboard players enable @a blastfurnace
 scoreboard players enable @a magmalord
 scoreboard players enable @a asderoidstrike
@@ -34,10 +34,12 @@ execute as @a[scores={fireball=1..}] run function rpg:spells/fire/earlyspells/le
 execute as @a[scores={kindling=1..}] run function rpg:spells/fire/earlyspells/level1/kindling/trigger/givespell
 execute as @a[scores={heatwave=1..}] run function rpg:spells/fire/earlyspells/level2/heatwave/trigger/givespell
 execute as @a[scores={conjurenetherhound=1..}] run function rpg:spells/fire/earlyspells/level2/conjurenetherhound/trigger/givespell
-execute as @a[scores={flameblade=1}] run function rpg:spells/fire/earlyspells/level3/flameblade/trigger/givespell
-execute as @a[scores={netherwalk=1}] run function rpg:spells/fire/earlyspells/level3/netherwalk/trigger/givespell
-execute as @a[scores={meteor=1}] run function rpg:spells/fire/flameknight/level4/meteor/trigger/givespell
-execute as @a[scores={firecore=1}] run function rpg:spells/fire/flameknight/level4/firecore/trigger/givespell
+execute as @a[scores={flameblade=1..}] run function rpg:spells/fire/earlyspells/level3/flameblade/trigger/givespell
+execute as @a[scores={netherwalk=1..}] run function rpg:spells/fire/earlyspells/level3/netherwalk/trigger/givespell
+execute as @a[scores={meteor=1..}] run function rpg:spells/fire/flameknight/level4/meteor/trigger/givespell
+execute as @a[scores={firecore=1..}] run function rpg:spells/fire/flameknight/level4/firecore/trigger/givespell
+execute as @a[scores={cruciblehammer=1..}] run function rpg:spells/fire/flameknight/level5/cruciblehammer/trigger/givespell
+execute as @a[scores={blastfurnace=1..}] run function rpg:spells/fire/flameknight/level5/blastfurnace/trigger/givespell
 
 execute as @a[scores={dismissconjured=1}] run function rpg:spells/fire/dismissconjured
 
@@ -59,6 +61,8 @@ scoreboard players reset @a[scores={flameblade=1..}] flameblade
 scoreboard players reset @a[scores={netherwalk=1..}] netherwalk
 scoreboard players reset @a[scores={meteor=1..}] meteor
 scoreboard players reset @a[scores={firecore=1..}] firecore
+scoreboard players reset @a[scores={cruciblehammer=1..}] cruciblehammer
+scoreboard players reset @a[scores={blastfurnace=1..}] blastfurnace
 
 scoreboard players reset @a[scores={dismissconjured=1..}] dismissconjured
 
