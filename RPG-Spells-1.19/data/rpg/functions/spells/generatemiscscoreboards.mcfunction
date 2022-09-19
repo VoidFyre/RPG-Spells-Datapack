@@ -12,3 +12,5 @@ scoreboard objectives add usednetheritesword minecraft.used:minecraft.netherite_
 scoreboard objectives add extinguish dummy
 scoreboard objectives add animate dummy
 scoreboard objectives add usedrocket minecraft.used:minecraft.firework_rocket
+
+scoreboard objectives add sneaking minecraft.custom:minecraft.sneak_time

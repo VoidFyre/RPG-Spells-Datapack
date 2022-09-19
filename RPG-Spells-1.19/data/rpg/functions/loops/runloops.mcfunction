@@ -37,3 +37,5 @@ function rpg:spells/spellloops
 function rpg:loops/misc/setuploop
 
 function rpg:spells/extinguish
+
+function rpg:spells/sneakloops

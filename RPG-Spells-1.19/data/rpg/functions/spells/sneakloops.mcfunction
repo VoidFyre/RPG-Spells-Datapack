@@ -1,0 +1,1 @@
+scoreboard players reset @a[scores={sneaking=1..}] sneaking
