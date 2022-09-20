@@ -49,8 +49,6 @@ scoreboard objectives add motion_z2 dummy
 scoreboard objectives add cooldown dummy
 scoreboard players set @a cooldown 0
 
-scoreboard objectives add undead dummy
-
 function rpg:spells/generateleveltitles
 
 scoreboard objectives add aggro dummy

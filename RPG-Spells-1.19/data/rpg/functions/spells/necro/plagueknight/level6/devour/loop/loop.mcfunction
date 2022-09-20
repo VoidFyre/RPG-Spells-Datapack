@@ -1,4 +1,4 @@
-execute as @e[tag=devour] at @s run execute store result score @s devourcount if entity @e[type=!armor_stand,type=!item,type=!item_frame,type=!area_effect_cloud,distance=1..6]
+execute as @e[tag=devour] at @s run execute store result score @s devourcount if entity @e[type=#enemy,distance=1..6]
 
 execute as @e[scores={devourduration=160}] at @s run playsound entity.wither.ambient player @a ~ ~ ~ 1 .5 
 execute as @e[scores={devourduration=120}] at @s run playsound entity.generic.eat player @a

@@ -1,5 +1,3 @@
-function rpg:loops/misc/setundead
-
 function rpg:loops/misc/bookloops
 
 function rpg:spells/resurrect
@@ -9,8 +7,6 @@ function rpg:spells/manabars
 function rpg:spells/levelbooks
 
 function rpg:loops/misc/phylacteryparticle
-
-function rpg:loops/customarmor/armorloops
 
 function rpg:loops/misc/structureloops
 
