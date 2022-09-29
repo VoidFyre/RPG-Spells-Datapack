@@ -26,8 +26,8 @@ execute if score counter naturalSpawn matches 10 run execute as @e[type=minecraf
 
 execute as @e[type=zombified_piglin,tag=detected,tag=!spawned] run tag @s add spawned
 
-execute as @e[type=zombified_piglin,tag=spawned] at @s if score @s naturalSpawn matches 1 run summon wither_skeleton ~ ~ ~ {Tags:["naturalDemon"],DeathLootTable:"rpg:mob_drops/demon",HandItems:[{},{}],ArmorItems:[{Count:1,id:"leather_boots",tag:{display:{color:16711680}}},{Count:1,id:"leather_leggings",tag:{display:{color:16711680}}},{Count:1,id:"leather_chestplate",tag:{display:{color:16711680}}},{id:"minecraft:player_head",Count:3b,tag:{SkullOwner:{Id:[I;-191738256,1590641799,-1950938967,1005517083],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzQ2OTA5ZjYzYWJkOWE0NWNiMTA1NTRiYjFkNmUwMDBiM2IxMTJiN2RiMzlkOTkwMTQ0MWU1MmE5ZWYzYzBkYyJ9fX0="}]}}}}],ArmorDropChances:[0.000F,0.000F,0.000F,0.000F]}
-execute as @e[type=zombified_piglin,tag=spawned] if score @s naturalSpawn matches 1 run kill @s
+execute as @e[type=zombified_piglin,tag=spawned] at @s if block ~ ~-1 ~ netherrack if score @s naturalSpawn matches 1 run summon wither_skeleton ~ ~ ~ {Tags:["naturalDemon"],DeathLootTable:"rpg:mob_drops/demon",HandItems:[{},{}],ArmorItems:[{Count:1,id:"leather_boots",tag:{display:{color:16711680}}},{Count:1,id:"leather_leggings",tag:{display:{color:16711680}}},{Count:1,id:"leather_chestplate",tag:{display:{color:16711680}}},{id:"minecraft:player_head",Count:3b,tag:{SkullOwner:{Id:[I;-191738256,1590641799,-1950938967,1005517083],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzQ2OTA5ZjYzYWJkOWE0NWNiMTA1NTRiYjFkNmUwMDBiM2IxMTJiN2RiMzlkOTkwMTQ0MWU1MmE5ZWYzYzBkYyJ9fX0="}]}}}}],ArmorDropChances:[0.000F,0.000F,0.000F,0.000F]}
+execute as @e[type=zombified_piglin,tag=spawned] if block ~ ~-1 ~ netherrack if score @s naturalSpawn matches 1 run kill @s
 
 execute unless score counter naturalSpawn matches 10 run scoreboard players add counter naturalSpawn 1
 execute if score counter naturalSpawn matches 10 run scoreboard players set counter naturalSpawn 0
