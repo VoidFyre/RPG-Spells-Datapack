@@ -58,5 +58,9 @@ execute as @e[distance=..8,type=item,nbt={Item:{id:"minecraft:raw_gold_block"}}]
 execute as @e[distance=..8,type=item,nbt={Item:{id:"minecraft:raw_gold_block"}}] run particle flame ~ ~ ~ .1 .1 .1 .005 3
 execute as @e[distance=..8,type=item,nbt={Item:{id:"minecraft:raw_gold_block"}}] run kill @s
 
-execute as @e[distance=..8,type=#enemy_undead] run effect give @s instant_health 1 2
-execute as @e[distance=..8,type=#enemy_living] run effect give @s instant_damage 1 2
+execute as @e[distance=..8,type=item,nbt={Item:{id:"minecraft:ancient_debris"}}] run data modify entity @s Item.id set value "minecraft:netherite_scrap"
+execute as @e[distance=..8,type=item,nbt={Item:{id:"minecraft:ancient_debris"}}] run particle flame ~ ~ ~ .1 .1 .1 .005 3
+execute as @e[distance=..8,type=item,nbt={Item:{id:"minecraft:ancient_debris"}}] run kill @s
+
+execute as @e[distance=2..8,type=#enemy_undead] run effect give @s instant_health 1 2
+execute as @e[distance=2..8,type=#enemy_living] run effect give @s instant_damage 1 2

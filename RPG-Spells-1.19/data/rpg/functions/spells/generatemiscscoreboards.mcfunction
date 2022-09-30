@@ -14,3 +14,5 @@ scoreboard objectives add animate dummy
 scoreboard objectives add usedrocket minecraft.used:minecraft.firework_rocket
 
 scoreboard objectives add sneaking minecraft.custom:minecraft.sneak_time
+
+scoreboard objectives add store_armor dummy

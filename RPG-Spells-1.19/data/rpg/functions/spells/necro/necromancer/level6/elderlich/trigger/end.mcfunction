@@ -1,4 +1,5 @@
 tag @s add store_armor
+execute as @e[type=armor_stand,tag=store_armor] at @a if score @p trackplayers = @s summoncounter if score @s store_armor matches 0 run tp @s @p
 execute as @e[type=armor_stand,tag=store_armor] if score @s summoncounter = @p[tag=store_armor] trackplayers run function rpg:spells/armorstorage/restorearmor
 execute as @e[type=armor_stand,tag=store_armor] if score @s summoncounter = @p[tag=store_armor] trackplayers run kill @s
 tag @s remove store_armor
