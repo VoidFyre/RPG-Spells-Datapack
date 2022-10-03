@@ -40,6 +40,8 @@ execute as @a[scores={meteor=1..}] run function rpg:spells/fire/flameknight/leve
 execute as @a[scores={firecore=1..}] run function rpg:spells/fire/flameknight/level4/firecore/trigger/givespell
 execute as @a[scores={cruciblehammer=1..}] run function rpg:spells/fire/flameknight/level5/cruciblehammer/trigger/givespell
 execute as @a[scores={blastfurnace=1..}] run function rpg:spells/fire/flameknight/level5/blastfurnace/trigger/givespell
+execute as @a[scores={magmalord=1..}] run function rpg:spells/fire/flameknight/level6/magmalord/trigger/givespell
+
 
 execute as @a[scores={dismissconjured=1}] run function rpg:spells/fire/dismissconjured
 
@@ -63,6 +65,7 @@ scoreboard players reset @a[scores={meteor=1..}] meteor
 scoreboard players reset @a[scores={firecore=1..}] firecore
 scoreboard players reset @a[scores={cruciblehammer=1..}] cruciblehammer
 scoreboard players reset @a[scores={blastfurnace=1..}] blastfurnace
+scoreboard players reset @a[scores={magmalord=1..}] magmalord
 
 scoreboard players reset @a[scores={dismissconjured=1..}] dismissconjured
 
