@@ -11,10 +11,8 @@ execute as @a[scores={meteorcooldown=1..}] run scoreboard players remove @s mete
 execute as @a[scores={firecorecooldown=1..}] run scoreboard players remove @s firecorecooldown 1
 execute as @a[scores={cruciblehammercooldown=1..}] run scoreboard players remove @s cruciblehammercooldown 1
 execute as @a[scores={blastfurnacecooldown=1..}] run scoreboard players remove @s blastfurnacecooldown 1
-execute as @a[scores={magmalordcooldown=1..}] run scoreboard players remove @s magmalordcooldown 1
 
 #spell duration
 execute as @a[scores={heatwaveduration=1..}] run scoreboard players remove @s heatwaveduration 1
 execute as @a[scores={meteorduration=1..}] run scoreboard players remove @s meteorduration 1
 execute as @a[scores={firecoreduration=1..}] run scoreboard players remove @s firecoreduration 1
-execute as @a[scores={magmalordduration=1..}] run scoreboard players remove @s magmalordduration 1

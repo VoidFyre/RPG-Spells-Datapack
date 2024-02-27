@@ -1,6 +1,6 @@
 
 
-execute as @e[type=minecraft:armor_stand,tag=altar_necro] at @s if entity @e[distance=..5,type=item,nbt={Item:{id:"minecraft:rotten_flesh",tag:{rotten_paper:1}}}] if entity @e[distance=...5,type=item,nbt={Item:{id:"minecraft:written_book",tag:{death_book_undis:1}}}] as @s run function rpg:loops/upgradetomes/necro/level1
+execute as @e[type=minecraft:armor_stand,tag=altar_necro] at @s if entity @e[distance=..5,type=item,nbt={Item:{id:"minecraft:rotten_flesh",tag:{rotten_paper:1}}}] if entity @e[distance=...5,type=item,nbt={Item:{id:"minecraft:written_book",tag:{death_book_undis:1,resolved:1b}}}] as @s run function rpg:loops/upgradetomes/necro/level1
 
 execute as @e[type=minecraft:armor_stand,tag=altar_necro] at @s if entity @e[distance=..5,type=item,nbt={Item:{id:"minecraft:bone",tag:{spine:1}}}] if entity @e[distance=...5,type=item,nbt={Item:{id:"minecraft:written_book",tag:{death_book:1}}}] as @s run function rpg:loops/upgradetomes/necro/level2
 

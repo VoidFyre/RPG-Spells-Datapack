@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "spells:custommobs/netherhound",
-		"particle": "spells:custommobs/netherhound"
+		"0": "spells:item/custommobs/netherhound",
+		"particle": "spells:item/custommobs/netherhound"
 	},
 	"elements": [
 		{

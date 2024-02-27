@@ -4,10 +4,11 @@ execute unless score @s conjurenetherhoundcooldown matches 1.. run scoreboard pl
 execute unless score @s heatwavecooldown matches 1.. run scoreboard players set @s heatwavecooldown 0
 execute unless score @s netherwalkcooldown matches 1.. run scoreboard players set @s netherwalkcooldown 0
 execute unless score @s flamebladecooldown matches 1.. run scoreboard players set @s flamebladecooldown 0
+
 execute unless score @s firecorecooldown matches 1.. run scoreboard players set @s firecorecooldown 0
 execute unless score @s meteorcooldown matches 1.. run scoreboard players set @s meteorcooldown 0
-execute unless score @s blastfurnacecooldown matches 1.. run scoreboard players set @s blastfurnacecooldown 0
-execute unless score @s magmalordcooldown matches 1.. run scoreboard players set @s magmalordcooldown 0
+
+execute unless score @s blastfurnace matches 1.. run scoreboard players set @s blastfurnacecooldown 0
 
 execute unless score @s firetransportab matches 1.. run scoreboard players set @s firetransportab 0
 execute unless score @s firetransportba matches 1.. run scoreboard players set @s firetransportba 0
